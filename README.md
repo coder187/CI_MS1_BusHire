@@ -91,34 +91,49 @@ Various vehicle options.
 
 
 ## Existing Features
-Responsive Design
-Quick Contact Form
-Smooth scrolling for better UX.
+* Responsive Design.
+* Quick Contact Form.
+* Smooth scrolling for better UX.
 
 
 ## Features Left to Implement
-
-### As a potential customer I would like to get an instant quote for my travel requirements. (front end js or backend vb/c#/python? - site owner may need ability to start/stop , adjust params)
-### As a potential customer I would like to read (& post) social reviews placed by exisitng customers. (link to social review system - facebook / tripadviser.)
-
-## Version 3
-### As a potential customer I would like to see realtime information in relation to carraige services
+* As a potential customer I would like to get an instant quote for my travel requirements. (front end js or backend vb/c#/python
+* As a potential customer I would like to read (& post) social reviews placed by exisitng customers. (link to social review system - facebook / tripadviser.)
+* As a potential customer I would like to see realtime information in relation to carraige services
 (e.g. Route 789 "is on time, next stop xyz in x mins") -- (telematics api)
-### As a potential customer I would like to book an individual seat and recieve an eticket. (sql db + vb/c#)
-
-## Version 4
-### As a potential customer I would like to pick and reserve my exact seat from a seat plan of the active 
-vehicle.
-### As a club\group\corporate user I would like to view realtime data on passeger load and vehicle location.
-### As a club\group\corporate user I would like to view my invoice history online.
+* As a potential customer I would like to book an individual seat and recieve an eticket. (sql db + vb/c#)
 
 ## Technologies Used
-HTML5
-CSS3
-Bootstrap v4.3.1
-Google Chrome Dev tools for debugging
-Google Light house for audits
+* HTML5
+* CSS3
+* Bootstrap v4.3.1
+* Google Chrome Dev tools for debugging
+* Google Light house for performance audits
 
+
+## Testing
+
+### Testing planning.
+
+## Implementation
+
+## Results and outcomes
+
+
+## Deployment
+
+## Bugs
+
+## Credits
+https://www.markdownguide.org/basic-syntax/
+
+## Content
+
+## Acknowledgements
+
+**This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Jonathan Kelly**
 
 ## Gitpod Reminders
 
