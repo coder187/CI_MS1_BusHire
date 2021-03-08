@@ -1,8 +1,124 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![KT logo](http://concert-travel.com/assets/logo/kt_logo.png)
 
-Welcome USER_NAME,
+# Kelly Travel - Bus Hire Website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Project - User-Centric Frontend Development - Code Institute
+
+The project will produce a simple brochure website for the Limerick based bus hire opertor - Kelly Travel.
+
+The idea behind the project is to help support and enhance the companies current web and social media presenc via a user friendly  & mobile responsive site with some 
+basic information on the company and services offered.
+
+## Showcase
+A deployed link to the website can be found here. <link>
+
+# UX
+
+## User Stories
+The end user of the system will be current and potential customers of Kelly Travel.
+This includes a very wide range of people, so ease of use and responsive design are of utmost importance.
+
+The site will have information on the company including:
+* Office Contact Information.
+* Emergency Contact Information.
+* Brief Fleet Examples.
+* A "Quick Quote" form.
+
+It is envisaged that the site will encourage interest in the companies services 
+from a younger audience as the current site is not fully responsive and so engagement is somewhat diminised.
+A modern UX will hopefully bring the companes services to an even wider audience.
+
+One key requirement is to have a an accessable site.
+
+* As a potential customer I want to get contact information for local bus companies.
+* As a potential customer I want information on the type of vehicles available for hire.
+* As a potential customer I would like to see the types of journeys catered for.
+* As a potential customer I would like to know if the company can provide disability friendly vehicles.
+* As a potential customer I want to send a request for a quote for hire via the contact page.
+* As a potential customer I want to view timetable data for operated routes.
+
+## Strategy
+### User Needs.
+The needs of the user is to fulfil the capabilites of using this application on their mobile and tablet devices. 
+They need the information to be easily accessible and easy to digest.
+
+### Technical Capabilites
+It is envisenged that Bootstrap 4 together with HTML5, CSS3 and Javascript will be utilised to create the website in a timely manner. 
+Keeping the information seperated but easy to read and designed to pop out for the user so they dont have to look 
+too hard for the information. It was not possible to implement mailing servers on this project due to time restrictions and 
+was not part of the current scope of the project, but is due to be completed on a future release.
+
+### Business Vision
+The purpose of this project is to provide basic information to the general puplic on the services offered by Kelly Travel and 
+to provide a seamless user friendly mechanism to make an enqiry via the contact form.
+
+It is envisaged hat the base system will be extended in future updates to provide cloud based customer services which will fully integrate with the exist9ng 
+IT infrasctructire of the companes backoffice systems.
+
+## Scope
+If they like what they see it promotes further followers on the social media platform and or to get intouch for further information.
+
+## Structure
+My structure is layed out as a single page application that has an inviting landing page with quick quote form 
+to allow quick and easy enquiries with as little input from the user as possible. 
+On the natural flow of the site it brings you to the About Kelly Travel section that gives a quick snippet of the business, 
+followed by a quick snippet of the reasons customers choose to travel with us on a regular basis.
+Following this you are shown some examples of the avaialble vehicle options with a call to action button "more info.."
+The footer that has links to social media platforms.
+
+## Skeleton
+
+Wireframes:
+
+[Landing page Mobile](http://github.com)
+
+[Landing page Desktop](http://github.com)
+ 
+## Features
+
+
+Home page:
+The homepage will be a landing page for the user and give them the warm welcome feeling with a contact form overlayed.
+
+About:
+This section covers a brief overview of who Kelly Travel are, how long they have been in business and why ypu can trust them.
+
+Reasosn To Travel With Us:
+Highlighting the services the charity currently offers.
+
+Our Fleet:
+Various vehicle options.
+
+
+## Existing Features
+Responsive Design
+Quick Contact Form
+Smooth scrolling for better UX.
+
+
+## Features Left to Implement
+
+### As a potential customer I would like to get an instant quote for my travel requirements. (front end js or backend vb/c#/python? - site owner may need ability to start/stop , adjust params)
+### As a potential customer I would like to read (& post) social reviews placed by exisitng customers. (link to social review system - facebook / tripadviser.)
+
+## Version 3
+### As a potential customer I would like to see realtime information in relation to carraige services
+(e.g. Route 789 "is on time, next stop xyz in x mins") -- (telematics api)
+### As a potential customer I would like to book an individual seat and recieve an eticket. (sql db + vb/c#)
+
+## Version 4
+### As a potential customer I would like to pick and reserve my exact seat from a seat plan of the active 
+vehicle.
+### As a club\group\corporate user I would like to view realtime data on passeger load and vehicle location.
+### As a club\group\corporate user I would like to view my invoice history online.
+
+## Technologies Used
+HTML5
+CSS3
+Bootstrap v4.3.1
+Google Chrome Dev tools for debugging
+Google Light house for audits
+
 
 ## Gitpod Reminders
 
