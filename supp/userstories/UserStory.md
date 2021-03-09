@@ -13,6 +13,7 @@
 ## Version 2
 ### As a potential customer I would like to get an instant quote for my travel requirements. (front end js or backend vb/c#/python? - site owner may need ability to start/stop , adjust params)
 ### As a potential customer I would like to read (& post) social reviews placed by exisitng customers. (link to social review system - facebook / tripadviser.)
+### As a potential customer I would like to view and follow the companies social media feeds via the website.
 
 ## Version 3
 ### As a potential customer I would like to see realtime information in relation to carraige services
