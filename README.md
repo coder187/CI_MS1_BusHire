@@ -97,6 +97,7 @@ Various vehicle options.
 
 
 ## Features Left to Implement
+* As a potential customer I would like to search the site using the site serach function.
 * As a potential customer I would like to get an instant quote for my travel requirements. (front end js or backend vb/c#/python
 * As a potential customer I would like to read (& post) social reviews placed by exisitng customers. (link to social review system - facebook / tripadviser.)
 * As a potential customer I would like to see realtime information in relation to carraige services
