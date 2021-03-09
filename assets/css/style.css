@@ -1,3 +1,56 @@
-body {
-  background-color:blueviolet;
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  }
+
+
+.col1{
+  border:2px solid violet;
+  height: 600px;
+
+}
+
+.col2{
+  border: 2px solid blue;
+  height: 600px;
+}
+
+.container-fluid{
+  position: relative;
+  
+}
+.bg-image{
+background: url('rLimerick1220.jpg') no-repeat center center;
+height: 600px;
+width:100%;
+
+}
+
+.bg-opaque{
+  height: 600px;
+  width: 100%;
+  top:0px;
+  right:0px;
+  position:absolute; /*fix in place by settinh positin absolute */
+    /*note the parent container mus thave
+  position:relative; "hero-outer" */
+  background-color: rgba(241,109,107,.7); /*opacity .9 */
+
+}
+.form-header{
+  padding-left: 15px;
+}
+
+.form-row{
+padding: 5px 15px;
+}
+#quick-quote{
+  top:10px;
+  padding:10px;
+}
+
+.welcometext{
+  padding-top: 100px;
+  padding-left:50px;
 }

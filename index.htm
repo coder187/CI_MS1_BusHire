@@ -8,23 +8,71 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <nav>
+    
+    <!-- navbar code from https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm"> <!-- add class fixed-top to fix the nav bar to rop of the screen -->
+        <a href="/" class="navbar-brand"><img src="assets/img/kt_logo.png" alt="logo" class="logo"></a>
+        <ul class="navbar-nav mr-auto"> <!-- mr-atuo push left --> 
+          <li class="nav-item mr-2 active"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item mr-2"><a class="nav-link" href="#quote">Instant Quote</a></li>
+          <li class="nav-item mr-2"><a class="nav-link" href="contact">Contact</a></li>
+        </ul>
 
+        <div class="d-none d-md-block"> <!-- only display on medium sized screens and above -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
     </nav>
-    <header>
 
-    </header>
-    <reasons>
-
-    </reasons>
-    <fleet>
-
-    </fleet>
-    <spinners>
-
-    </spinners>
-    <footer>
-        
-    </footer>
+    
+        <div class="container-fluid">
+            <div class="row bg-image">
+                <div class="col bg-opaque">
+                    <div class ="row no-gutters">
+                        <div class="col-md-6 col1">
+                            <h3 class="form-header">Get Instant Quote</h3>
+                            <form id="quick-quote">
+                                <div class="row form-row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="name" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" class="form-control" placeholder="email" required>
+                                    </div>
+                                </div> <!-- end from row -->
+                                <div class="row form-row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="tel" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="drop" required>
+                                    </div>
+                                </div> <!-- end from row -->
+                                <div class="row form-row">
+                                    <div class="col">
+                                        <textarea class="form-control" rows="3" placeholder="message" required></textarea>
+                                    </div>
+                                </div> <!-- end from row -->
+                                <div class="row form-row">
+                                    <div class="col">
+                                        <input type="submit" class="form-control">
+                                    </div>
+                                </div> <!-- end from row -->
+                            </form>
+                        </div> 
+                        <div class="col-md-6 col2"> <!-- second col header -->
+                            <div class ="welcometext">
+                                <h1>Kelly Travel</h1>
+                                <h2>Moving People is our Passion</h2>
+                                <p>Contact us now for a competitive quote.</p>
+                            </div> 
+                        </div> <!-- end econd col header -->
+                    </div> <!-- end main row-->
+                </div> <!-- end col bg-opaque -->
+            </div> <!-- end row bg-image -->
+        </div> <!-- end header container -->
 </body>
 </html>
