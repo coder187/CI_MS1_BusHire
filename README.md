@@ -125,6 +125,9 @@ Various vehicle options.
 ## Bugs
 
 ## Credits
+wireframes  : balsamiq
+sample readme : https://github.com/Code-Institute-Solutions/readme-template
+
 https://www.markdownguide.org/basic-syntax/
 
 ## Content
