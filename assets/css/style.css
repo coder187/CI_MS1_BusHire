@@ -2,14 +2,15 @@
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Work Sans', sans-serif; */
 
+.logo{
+    height: 40px;
+}
 .col1{
     height: 300px;
-    border:solid 1px gold;
 }
 
 .col2{
   height: 300px;
-  border:solid 1px red;
 }
 
 .container-fluid{
@@ -17,7 +18,8 @@
 }
 
 .bg-image{
-background: url('../img/rLimerick1220.jpg') no-repeat center center;
+background: url('../img/scania_961x600.png') no-repeat  center center;
+
 height: 300px;
 width:100%;
 }
@@ -30,7 +32,7 @@ width:100%;
   position:absolute; /*fix in place by settinh positin absolute */
     /*note the parent container mus thave
   position:relative; "hero-outer" */
-  background-color: rgba(46, 49, 49, .5); /*opacity*/
+  background-color: rgba(46, 49, 49, .9); /*opacity*/
 }
 
 .form-header{
@@ -50,7 +52,7 @@ padding: 5px 15px;
 /*------------ Welcome text --------------*/
 .welcometext {
     font-family: "Work Sans",sans-serif;
-    color:white;
+    color:#fafafa;
     letter-spacing: 2px;
     padding-top: 50px;
     padding-left:50px;
