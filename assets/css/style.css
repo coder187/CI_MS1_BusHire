@@ -45,18 +45,23 @@ width:100%;
     font-family: "Roboto",sans-serif;
     letter-spacing: 4px;
     font-size: 2em;
-    
+
 }
 
 .welcometext{
     top:10px;
     padding:10px;
+    color:#5E1735;
+    
+    color:black;    
     color:#fafafa;
     height:600px;
     width: 75%;
     left:15px;
     position:absolute;
     background-color: rgba(94, 23, 53, .5); /*opacity*/
+    background-color: rgba(24, 95, 66, .5); /*opacity*/
+    
 }
 
 /*------------ Quick Contact Form --------------*/
