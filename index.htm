@@ -10,7 +10,7 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
+
     <!-- navbar code from https://getbootstrap.com/docs/4.0/components/navbar/ -->
     <nav class="navbar navbar-light bg-light navbar-expand-sm"> <!-- add class fixed-top to fix the nav bar to rop of the screen -->
         <a href="/" class="navbar-brand"><img src="assets/img/kt_logo.png" alt="logo" class="logo"></a>
@@ -28,14 +28,11 @@
             </form>
         </div>
     </nav>
-
-        <header class="container-fluid">
-            <div class="row bg-image">
-                <div class="col bg-opaque">
-                    <div class ="row no-gutters">
-                        <div class="col-md-6 col1">
-                            <h3 class="form-header">Get Instant Quote</h3>
-                            <form id="quick-quote">
+    <div class="container-fluid bg-image">
+        <header class="row">
+            <div class="col-md col1">
+                    <h3 class="form-header"></h3>
+                    <form id="quick-quote">
                                 <div class="row form-row">
                                     <div class="col">
                                         <input type="text" class="form-control" placeholder="bussize" required>
@@ -69,77 +66,87 @@
                                         <input type="submit" class="form-control" value="Get a Free Quote" id="quote-button">
                                     </div>
                                 </div> <!-- end from row -->
-                            </form>
-                        </div> 
-                        <div class="col-md-6 col2"> <!-- second col header -->
-                            <div class ="welcometext ">
-                                <h1>Limericks number one Minibus & Coach Hire Company</h1>
-                                <h2>Moving People Safely is our Passion</h2>
-                                <p>We are Limerick's leading Bus & Coach Opetartor</p>
-                                <p>Contact us now for a competitive quote.</p>
-                            </div> 
-                        </div> <!-- end econd col header -->
-                    </div> <!-- end main row-->
-                </div> <!-- end col bg-opaque -->
-            </div> <!-- end row bg-image -->
-        </header> <!-- end header container -->
-    <about>about</about>
-    <fleet>fleet</fleet>
-    <footer class ="container-fluid">
-        <div id="footer-details" class = "row">
-            <div class="col-sm-4"> <!-- we dont need to supply col class for mobile screens because bootstrap defaults to full width which is what we want-->
-                <h5 class="uppercase general-sub">Address</h5>
-                <p class ="Inline-Block">
-                    Unit 6C,<br>Eastway Business Park,<br>Limerick<br>EIR 0417
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Contact</h5>
-                <p class ="Inline-Block">
-                    <ul>
-                        <li>
-                            <p> <i class="fa fa-mobile"></i> Emergency (24/7 Contact) : <strong>555 3445678</strong></p>
-                        </li>
-                        <li>
-                            <p> <i class="fa fa-phone"></i> Office (Business Hours) : <strong>555 403298</strong></p>
-                        </li>
-                        <li>
-                            <p> <i class="fa fa-mobile"></i> Sales : <strong>555 873445678</strong></p>
-                        </li>
-                    </ul>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="#" target = "_blank">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target = "_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target = "_blank">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target = "_blank">
-                            <i class="fa fa-tumblr" aria-hidden="true"></i>
-                            <span class="sr-only">Tumblr</span>
-                        </a>
-                    </li>
-                </ul>
+                    </form>
+            </div> <!--  end col1  -->
+            <div class="col-md col2"> <!-- second col header -->
+                    <div class ="welcometext ">
+                        <h1>Limericks #1 Minibus & Coach Hire Company</h1>
+                        <ul>
+                            <li><i class="fa fa-check"></i> Private Hire</li>
+                            <li><i class="fa fa-check"></i> Schools</li>
+                            <li><i class="fa fa-check"></i> Airport</li>
+                            <li><i class="fa fa-check"></i> Corporate</li>
+                            <li><i class="fa fa-check"></i> Concerts</li>
+                            <li><i class="fa fa-check"></i> Hens Stags</li>
+                            <li><i class="fa fa-check"></i> Weddings</li>
+                            <li><i class="fa fa-check"></i> Contract</li>
+                            <li><i class="fa fa-check"></i> Touring</li>
+                        </ul>
+                    </div> 
+                </div> <!-- end col 2 -->
+
+            </header> <!-- end hedaer section -->
+            <about class ="row">
+                <div class="col">
+                    about
+                </div>
+            </about>
+            <fleet class ="row">
+                <div class="col">
+                    fleet
+                </div>
+            </fleet>
+            <footer class ="row">
+                <div class="col">
+                    
+            <div id="footer-details" class = "row">
+                    <div class="col-sm-4"> <!-- we dont need to supply col class for mobile screens because bootstrap defaults to full width which is what we want-->
+                        <h5 class="uppercase general-sub">Address</h5>
+                        <p class ="Inline-Block">Unit 6C,<br>Eastway Business Park,<br>Limerick<br>EIR 0417</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="uppercase general-sub">Contact</h5>
+                        <p class ="Inline-Block">
+                            <ul>
+                                <li><i class="fa fa-mobile"></i> Emergency (24/7 Contact) : <strong>555 3445678</strong></li>
+                                <li><i class="fa fa-phone"></i> Office (Business Hours) : <strong>555 403298</strong></li>
+                                <li><i class="fa fa-mobile"></i> Sales : <strong>555 873445678</strong></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                            <h5 class="uppercase general-sub">Social</h5>
+                            <ul class="list-inline social-links">
+                                <li class="list-inline-item">
+                                    <a href="#" target = "_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target = "_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target = "_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target = "_blank">
+                                        <i class="fa fa-tumblr" aria-hidden="true"></i>
+                                        <span class="sr-only">Tumblr</span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
             </div>
         </div>
-    </footer>
-
-</body>
+            </footer>
+                    </div> <!-- end container div-->
+    </body>
 </html>
+

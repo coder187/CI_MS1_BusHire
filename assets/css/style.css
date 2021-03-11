@@ -2,72 +2,80 @@
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Work Sans', sans-serif; */
 
+
 .logo{
     height: 40px;
 }
 .col1{
-    height: 400px;
+    height: 600px;
 }
 
 .col2{
-  height: 400px;
+  height: 600px;
 }
+
 
 .container-fluid{
   position: relative;
 }
 
 .bg-image{
-background: url('../img/scania_961x600.png') no-repeat  right center;
-
-height: 400px;
+background: url('../img/scania_961x600.png') no-repeat  center center;
+height:600px;
 width:100%;
 }
 
-.bg-opaque{
-  height: 400px;
-  width: 100%;
-  top:0px;
-  right:0px;
-  position:absolute; /*fix in place by settinh positin absolute */
-    /*note the parent container mus thave
-  position:relative; "hero-outer" */
-  /*background-color: rgba(46, 49, 49, .5); /*opacity*/
-}
 
 /*------------ Welcome text --------------*/
 .welcometext h1,h2 {
     font-family: "Work Sans",sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
-    color:#185F42;
 }
 
 .welcometext p{
     font-family: "Roboto",sans-serif;
 }
 
-.welcometext{
-    color:#fafafa;
-    padding-top: 10px;
-    padding-left:50px;  
-    border:2px solid #185F42;
-    margin-top:40px;
+.welcometext ul{
+    list-style-type: none;
 }
+
+.welcometext ul li{
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 4px;
+    font-size: 2em;
+    
+}
+
+.welcometext{
+    top:10px;
+    padding:10px;
+    color:#fafafa;
+    height:600px;
+    width: 75%;
+    left:15px;
+    position:absolute;
+    background-color: rgba(94, 23, 53, .5); /*opacity*/
+}
+
 /*------------ Quick Contact Form --------------*/
 .form-header{
     font-family: "Work Sans",sans-serif;
-    color:#fafafa;
     letter-spacing: 4px;
     padding-left: 0px;
+    background-color: #5E1735;
 }
-.form-row{
-padding: 5px 15px;
-}
+
 
 #quick-quote{
   top:10px;
   padding:10px;
+}
+
+
+.form-row{
+padding: 5px 15px;
 }
 
 .row label{
@@ -142,6 +150,8 @@ footer ul{
 }
 
 
+
+/*
 @media screen and (max-width: 770px){
     .bg-image{
     height: 800px;
@@ -151,3 +161,4 @@ footer ul{
   height: 800px;
     }
 }
+*/
