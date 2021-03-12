@@ -26,7 +26,7 @@
                 <li class="nav-item active "><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link nav-item" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#quote">Instant Quote</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
             </ul>
         
             
@@ -40,8 +40,7 @@
 
         </div>
     </nav>
-
-    <div class="container-fluid bg-image">
+<div class="container-fluid bg-image">
         <header class="row">
             <div class="col-md col1">
                     <h3 class="form-header"></h3>
@@ -81,28 +80,20 @@
                                 </div> <!-- end from row -->
                     </form>
             </div> <!--  end col1  -->
-            <div class="col-md col2"> <!-- second col header -->
+            <div class="col-md col2 d-none d-md-block"> <!-- second col header -->
                     <div class ="welcometext ">
                         <h1>Limericks #1 Minibus & Coach Hire Company</h1>
-                        <ul>
-                            <li><i class="fa fa-check"></i> Private Hire</li>
-                            <li><i class="fa fa-check"></i> Schools</li>
-                            <li><i class="fa fa-check"></i> Airport</li>
-                            <li><i class="fa fa-check"></i> Corporate</li>
-                            <li><i class="fa fa-check"></i> Concerts</li>
-                            <li><i class="fa fa-check"></i> Weddings</li>
-                            <li><i class="fa fa-check"></i> Contract</li>
-                            <li><i class="fa fa-check"></i> Touring</li>
-                        </ul>
+                        <p></p>
+                        <p>Serving the commumity for over 30 years.</p>
                     </div> 
                 </div> <!-- end col 2 -->
 
             </header> <!-- end hedaer section -->
-            <contactusnow class ="row contactusnow">
+            <div class ="row contactusnow">
                 <div class="col">
                     <p>Contact us today for a quick and easy quote <i class="fa fa-phone"></i> 555 873445678</p>
                 </div>
-            </contactusnow>
+            </div>
 
             <about class ="row">
                 <div class="col">
@@ -114,10 +105,11 @@
                     fleet
                 </div>
             </fleet>
-            <footer class ="row">
+            <footer class ="row" name="footer">
                 <div class="col">
-                    
-            <div id="footer-details" class = "row">
+            
+            <a name="footer"></a>
+            <div id="footer-details" class = "row" >
                     <div class="col-sm-4"> <!-- we dont need to supply col class for mobile screens because bootstrap defaults to full width which is what we want-->
                         <h5 class="uppercase general-sub">Address</h5>
                         <p class ="Inline-Block">Unit 6C,<br>Eastway Business Park,<br>Limerick<br>EIR 0417</p>
@@ -164,12 +156,10 @@
             </div>
         </div>
             </footer>
-        </div> <!-- end container div-->
-
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    </div> <!-- end container div-->
+    </body>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
-</html>
 
+</html>

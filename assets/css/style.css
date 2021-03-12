@@ -8,10 +8,12 @@
 }
 .col1{
     height: 600px;
+    border:solid 2px gold;
 }
 
 .col2{
   height: 600px;
+  border:solid 2px red;
 }
 
 
@@ -28,8 +30,9 @@ width:100%;
 
 /*------------ Welcome text --------------*/
 .welcometext h1,h2 {
-    font-family: "work sans",sans-serif;
-    font-weight: 600;
+    font-family: "Work Sans",sans-serif;
+    font-size: 30px;
+    font-weight: 300;
     letter-spacing: 2px;
 }
 
@@ -45,31 +48,27 @@ width:100%;
     font-family: "Roboto",sans-serif;
     letter-spacing: 4px;
     font-size: 1.5em;
-
 }
 
 .welcometext{
-    top:10px;
-    padding:10px;
-    /*color:#5E1735;
-    color:black;  */  
+    top:100px;
+    padding-left:15px;
     color:#fafafa;
-    height:600px;
-    width: 75%;
+    height:175px;
+    width: 400px;
     left:15px;
     position:absolute;
-    background-color: rgba(94, 23, 53, .5); /*opacity*/
+    /*background-color: rgba(94, 23, 53, .5); */
     background-color: rgba(24, 95, 66, .5); /*opacity*/
-    
 }
 
 /*------------ Contact US Now --------------*/
 .contactusnow{
     background-color: #CE145F;
-    height:40px;
+    height:25px;
     font-family: "Roboto",sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 2px;
     color:#fafafa;
@@ -77,7 +76,7 @@ width:100%;
     
 /*------------ Quick Contact Form --------------*/
 .form-header{
-    font-family: "work sans",sans-serif;
+    font-family: "Work Sans",sans-serif;
     letter-spacing: 4px;
     padding-left: 0px;
     background-color: #5E1735;
@@ -85,8 +84,8 @@ width:100%;
 
 
 #quick-quote{
-  top:10px;
-  padding:10px;
+    padding-top:100px;
+    padding-left:200px;
 }
 
 
@@ -116,6 +115,7 @@ footer{
 
 .social-links{
     padding-bottom: 15px;
+    font-size:40px;
 }
 
 .social-links li a i {
@@ -139,6 +139,7 @@ footer{
 
 #footer-details{
     padding:20px;
+    text-align: center;
 }   
 
 h1,h2,h3,h4{
@@ -150,7 +151,7 @@ h1,h2,h3,h4{
 }
 
 .general-sub{
-    font-family: "work sans",sans-serif;
+    font-family: "Work Sans",sans-serif;
     color:#fafafa;
     font-weight: 600;
 }
@@ -166,11 +167,28 @@ footer ul{
 }
 
 
+/*------------ Media Queries --------------*/
+@media screen and (max-width: 992px) { 
+
+    #quick-quote{
+        padding-top:100px;
+        padding-left:10px;
+    }
+}
 
 
 @media screen and (max-width: 770px){
+   
     .contactusnow{
-    height: 140px;
+        font-size: medium;
     }
 
+}
+
+@media screen and (max-width: 615px) { 
+
+    .contactusnow{
+        font-size: small;
+        height:50px;
+    }
 }
