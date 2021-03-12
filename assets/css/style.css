@@ -86,8 +86,12 @@ width:100%;
 #quick-quote{
     padding-top:100px;
     padding-left:200px;
+
 }
 
+.form-control:hover{
+    border-color: #185F42;
+}
 
 .form-row{
 padding: 5px 15px;

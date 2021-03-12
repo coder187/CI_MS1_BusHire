@@ -47,30 +47,36 @@
                     <form id="quick-quote">
                                 <div class="row form-row">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="bussize" required>
+                                        <select class="form-control" req>
+                                            <option selected>Select Bus Size</option>
+                                            <option value="1">&#60 17 Seats </option>
+                                            <option value="2">17 - 35</option>
+                                            <option value="3">36 - 51</option>
+                                            <option value="3">&#62 51 Seats</option>
+                                        </select>
                                     </div>
                                 </div> <!-- end from row -->
                                 <div class="row form-row">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="when" required>
+                                        <input type="date" class="form-control" placeholder="Specify Date" required>
                                     </div>
                                 </div> <!-- end from row -->
                                 <div class="row form-row">
                                     <div class="col-6">
-                                        <input type="text" class="form-control" placeholder="loc" required>
+                                        <input type="text" class="form-control" placeholder="Collection" required>
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" class="form-control" placeholder="dest" required>
+                                        <input type="text" class="form-control" placeholder="Destination" required>
                                     </div>
                                 </div> <!-- end from row -->
                                 <div class="row form-row">
                                     <div class="col">
-                                        <input type="email" class="form-control" placeholder="email" required>
+                                        <input type="email" class="form-control" placeholder="Email" required>
                                     </div>
                                 </div> <!-- end from row -->
                                 <div class="row form-row">
                                     <div class="col">
-                                        <textarea class="form-control" rows="3" placeholder="message" required></textarea>
+                                        <textarea class="form-control" rows="3" placeholder="Any Additional Info" required></textarea>
                                     </div>
                                 </div> <!-- end from row -->
                                 <div class="row form-row">
