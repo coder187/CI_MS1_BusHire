@@ -125,7 +125,7 @@ Various vehicle options.
 ## Deployment
 
 ## Bugs
-
+about section : text not aligned bcause float had right instead of left
 ## Credits
 wireframes  : balsamiq
 sample readme : https://github.com/Code-Institute-Solutions/readme-template
