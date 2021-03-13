@@ -126,6 +126,7 @@ Various vehicle options.
 
 ## Bugs
 about section : text not aligned bcause float had right instead of left
+font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
 ## Credits
 wireframes  : balsamiq
 sample readme : https://github.com/Code-Institute-Solutions/readme-template
