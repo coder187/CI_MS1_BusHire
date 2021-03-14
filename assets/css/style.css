@@ -171,7 +171,7 @@ footer ul{
 }
 
 
-/*------------ Media Queries --------------*/
+/*------------ Media Queries General--------------*/
 
 @media screen and (max-width: 991px){
         #quick-quote{
@@ -212,7 +212,6 @@ footer ul{
 }
 /*----------------------------About Section--------------------------------------------------*/
 
-
 #about-kelly-travel{
     text-align: center;
 }
@@ -250,4 +249,39 @@ footer ul{
     width:100%;
     border-radius: 50%; /*creates a circle */
     /*note the image is 300pxX300px to help with centering the image */
+}
+
+/*--------------Spinners-------------------*/
+.spinner{
+    font-family:"Roboto",sans-serif;
+    font-size:40px; 
+    text-align: center;
+}
+
+
+
+@media (max-width: 480px) {
+    #kelly-travel-alt-bg{
+        height:202px;
+        width:100%;
+        background: url("../img/kids-on-a-bus-13441-008_360x202.jpg") no-repeat center center;
+        background-size: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+ #kelly-travel-alt-bg{
+        height:300px;
+        width:100%;
+        background: url("../img/kids-on-a-bus-13441-008_533x300.jpg") no-repeat center center;
+        background-size: auto;
+    }
+}
+@media (min-width: 1025px) {
+    #kelly-travel-alt-bg{
+        height:600px;
+        width:100%;
+        background: url("../img/kids-on-a-bus-13441-008_1067x600.jpg") no-repeat center center;
+        background-size: auto;
+    }
 }

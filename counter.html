@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+        .spinner{
+            font-family:"Roboto",sans-serif;
+            font-size:40px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section id="spinners">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="spinner">
+                        <p>Spinner #1</p>
+                        <p>
+                            <div id="value"></div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="spinner">
+                        <p>Spinner #2</p>
+                        <p>
+                            <div id="value2"></div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="spinner">
+                        <p>Spinner #3</p>
+                        <p>
+                            <div id="value3"></div>
+                        </p>      
+                    </div>
+                </div>
+                <div class="col-sm col-lg">
+                    <div class="spinner">
+                        <p>Spinner #4</p>
+                        <p>
+                            <div id="value4"></div>
+                        </p>      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    
+    <script>
+        var obj = document.getElementById("value");
+        animateValue(obj, 0, 50, 3000);
+        obj = document.getElementById("value2");
+        animateValue(obj, 0, 100, 5000);
+        obj = document.getElementById("value3");
+        animateValue(obj, 0, 1000, 3000);
+        obj = document.getElementById("value4");
+        animateValue(obj, 0, 1000, 3000);
+
+
+    </script>
+    
+</body>
+</html>

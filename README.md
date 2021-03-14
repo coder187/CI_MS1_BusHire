@@ -133,6 +133,8 @@ sample readme : https://github.com/Code-Institute-Solutions/readme-template
 https://www.typewolf.com/google-fonts
 https://purepng.com/
 https://www.markdownguide.org/basic-syntax/
+https://css-tricks.com/animating-number-counters/
+https://www.w3schools.com/js/
 
 ## Content
 
