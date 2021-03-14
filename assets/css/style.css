@@ -210,141 +210,44 @@ footer ul{
     }
     
 }
+/*----------------------------About Section--------------------------------------------------*/
 
 
-/*----------------------------About Section------------------------------------------------*/
-        
-        /*------About Kelly Travel ----*/
-        #about-kelly-travel {
-            height:600px;
-        }
-
-        #why-travel-with-us {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 280%;
-        }
-        
-        .left{
-            padding-top:30px;
-            width:33%;
-            float:left;
-            /*border:2px solid red; */
-        }
-        .right{
-            padding-top:30px;
-            width:33%;
-            float:right;
-           /*border:2px solid gold; */
-        }
-        .center{
-            width:33%;
-            margin:0 auto;
-            padding:0;
-        }
-
-        #circle-container{
-            width:300px;
-            height:300px;
-            padding:30px;
-            border:solid 1px #cccccc;
-            border-radius: 50%; /*creates a circle */
-            margin:0 auto; /*centers the content */
+#about-kelly-travel{
+    text-align: center;
+}
+#about-kelly-travel h2{  
+    font-family: "Work Sans",sans-serif;
 }
 
-        #circle-cover-bg{
-            background: url("../img/bus-interior.jpg") no-repeat center center;
-            height:100%;
-            width:100%;
-            border-radius: 50%; /*creates a circle */
-            /*note the image is 300pxX300px to help with centering the image */
-    }
-        .heading-right{
-            width: 50%;
-            float: left;
-            line-height: 20px;
-            clear: both;
-            margin-bottom: 50px;
-        }
-        
-        .heading-left{
-            width: 50%;
-            float: right;
-            line-height: 20px;
-            clear: both;
-            margin-bottom: 50px;
-        }
+#about-kelly-travel p{
+    font-family: "Roboto",sans-serif;
+}
 
-        .heading-right h2 {
-            text-align: right;
-        }
+.about-header{
+    padding-top:20px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 
-        .heading-right p {
-            text-align: right;
-        }
+.about-para-heading{
+    padding-bottom:10px;
+}
 
-        .heading-left h2 {
-            text-align: left;
-        }
+.circle-container{
+    width:300px;
+    height:300px;
+    padding:30px;
+    border:1px solid #cccccc;
+    border-radius: 50%; /*creates a circle */
+    margin:0 auto; /*centers the content */
+}
 
-        .heading-left p {
-            text-align: left;
-        }
-
-        .hr{
-            border:1px solid #777777;
-            width:100%;
-            margin: 5px 0;
-        }
-        
-        /*------------------------Media Quert About Section---------------------------*/
-        /*narrow vertical layoiut for tablets */
-        @media screen and (max-width: 1200px){
-            #about-kelly-travel{
-                width: 65%;
-                height: 1200px;
-                margin: 0 auto;
-            }
-
-
-            .left, .right{
-                width: 100%;
-                float: left;
-                padding: 0;
-            }
-
-            .center{
-                clear:both;
-                width:100%;
-                float: left;
-                padding:0;
-            }
-
-            hr{
-                display: none;
-            }
-        }
-
-            /*responsive mobile view */
-        @media screen and (max-width: 943px){
-
-                #about-kelly-travel{
-                    width:90%; /*this leaves 5% "gap" each side*/
-                    height:1200px;
-                    margin: 0 auto;/*center */
-                }
-
-                .heading-left, .heading-right {
-                    width:inherit;
-                }
-
-                .heading-left h2 , .heading-right h2{
-                    width: 100%;
-                    text-align: center;
-                }
-
-                .heading-left p , .heading-right p{
-                    padding: 0 20px 0 20px;
-                    text-align: center;
-                }
-        }
+.circle-cover-bg{
+    background: url("../img/bus-interior.jpg") no-repeat center center;
+    height:100%;
+    width:100%;
+    border-radius: 50%; /*creates a circle */
+    /*note the image is 300pxX300px to help with centering the image */
+}
