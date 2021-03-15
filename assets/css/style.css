@@ -298,3 +298,15 @@ footer ul{
         background-size: auto;
     }
 }
+
+/*****************FLEET CARDS******************************/
+
+#kelly-travel-fleet .container{
+    margin: 0 auto;
+}
+
+.card{
+            width: 18rem;
+            text-align: center;
+        }
+    
