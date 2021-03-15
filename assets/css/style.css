@@ -254,10 +254,23 @@ footer ul{
 /*--------------Spinners-------------------*/
 .spinner{
     font-family:"Roboto",sans-serif;
-    font-size:40px; 
+    font-size:20px; 
     text-align: center;
+    padding-top:10px;
 }
 
+.spinner-container, .spinner-container-lg{
+    width:55px;
+    height:55px;
+    padding:10px;
+    border:1px solid #cccccc;
+    border-radius: 50%; /*creates a circle */
+    margin:0 auto; /*centers the content */
+}
+.spinner-container-lg{
+    width:75px;
+    height:75px; 
+}
 
 
 @media (max-width: 480px) {
