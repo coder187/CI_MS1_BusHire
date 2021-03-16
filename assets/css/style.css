@@ -19,6 +19,8 @@
 
 .container-fluid{
   position: relative;
+  padding-left:0;
+  padding-right:0;
 }
 
 .bg-image{
@@ -52,11 +54,12 @@ width:100%;
 
 .welcometext{
     top:100px;
-    padding-left:15px;
+    text-align:center;
     color:#fafafa;
     height:175px;
-    width: 400px;
+    width: 450px;
     left:15px;
+    float:left;
     position:absolute;
     /*background-color: rgba(94, 23, 53, .5); */
     background-color: rgba(24, 95, 66, .5); /*opacity*/
@@ -85,8 +88,10 @@ width:100%;
 
 #quick-quote{
     padding-top:100px;
-    padding-left:200px;
-
+    width:450px; /*480 */
+    padding-left:15px;
+    padding-right:15px;
+    float:right;
 }
 
 .form-control:hover{
@@ -173,16 +178,19 @@ footer ul{
 
 /*------------ Media Queries General--------------*/
 
-@media screen and (max-width: 991px){
-        #quick-quote{
-        padding-left:8px;
+
+@media screen and (max-width: 577px) { 
+    .contactusnow{
+        font-size: small;
+        height:50px;
     }
-
+    
 }
-
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
+    
     #quick-quote{
-        padding-left:5px;
+        float:none;
+        margin:0 auto;
     }
 
     .col2{
@@ -190,6 +198,7 @@ footer ul{
         height:200px;
         padding-left: 10px;
     } 
+    
     .welcometext{
         top: 20px;
         height:150px;
@@ -202,14 +211,20 @@ footer ul{
    
 }
 
-@media screen and (max-width: 577px) { 
-
-    .contactusnow{
-        font-size: small;
-        height:50px;
+@media screen and (max-width: 300px) {
+    #quick-quote{
+        width:270px !important; 
     }
-    
 }
+
+@media screen and (max-width: 480px) {
+    #quick-quote{
+        padding-left:5px;
+        padding-right:5px;
+        width:305px; 
+    }
+}
+
 /*----------------------------About Section--------------------------------------------------*/
 
 #about-kelly-travel{

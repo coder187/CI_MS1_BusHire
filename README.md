@@ -136,6 +136,11 @@ https://www.markdownguide.org/basic-syntax/
 https://css-tricks.com/animating-number-counters/
 https://www.w3schools.com/js/
 
+centering the welcome text div - overwrite bootstrap padding
+centering spinners - text wrapping - add min height
+spinner circle not centereddue to large number - add padding-top to circle
+media query 300px not running without !important
+ipad welcome text bleed right margin
 ## Content
 
 ## Acknowledgements
