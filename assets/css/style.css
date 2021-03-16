@@ -251,13 +251,14 @@ footer ul{
     /*note the image is 300pxX300px to help with centering the image */
 }
 
-/*--------------Spinners-------------------*/
+/*****************Spinners******************************/
 .spinner{
     font-family:"Roboto",sans-serif;
     font-size:20px; 
     text-align: center;
     padding-top:10px;
 }
+
 
 .spinner-container, .spinner-container-lg{
     width:55px;
@@ -270,9 +271,24 @@ footer ul{
 .spinner-container-lg{
     width:75px;
     height:75px; 
+    padding-top:20px;
 }
 
+@media screen and (max-width: 991px) { 
+    .spinner-header{
+        min-height:110px;
+    }   
 
+}
+
+@media screen and (max-width: 575px) { 
+    .spinner-header{
+        min-height:10px;
+    }   
+
+}
+
+/*****************Alt Background Resize******************************/
 @media (max-width: 480px) {
     #kelly-travel-alt-bg{
         height:202px;
@@ -301,12 +317,14 @@ footer ul{
 
 /*****************FLEET CARDS******************************/
 
-#kelly-travel-fleet .container{
-    margin: 0 auto;
+#kelly-travel-fleet .col{
+    padding-top:5px;
+    padding-bottom:5px;
 }
-
 .card{
-            width: 18rem;
-            text-align: center;
-        }
+    width: 18rem;
+    text-align: center;
+    margin: 0 auto;
+          
+}
     
