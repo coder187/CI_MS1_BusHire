@@ -79,15 +79,44 @@ width:100%;
     
 /*------------ Quick Contact Form --------------*/
 .form-header{
-    font-family: "Work Sans",sans-serif;
-    letter-spacing: 4px;
-    padding-left: 0px;
-    background-color: #5E1735;
+    
+    height: 100px;
+    width: 450px;
+    padding-left: 30px;
+    padding-right: 15px;
+    float: right;
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 4em;
+    color :#185F42;
+}
+.left-arrow {
+	border-color: transparent #185F42;
+	border-style: solid;
+	border-width: 40px 40px 40px 0px;
+	height: 0px;
+	width: 0px;
+}
+
+.right-arrow {
+	border-color: transparent #185F42;
+	border-style: solid;
+	border-width: 40px 0px 40px 40px;
+	height: 0px;
+	width: 0px;
+}
+
+.quote-text{
+    position:relative;
+    top:20px;
+    left:60px;
+    color: white;
 }
 
 
+
 #quick-quote{
-    padding-top:100px;
+    padding-top:0px;
     width:450px; /*480 */
     padding-left:15px;
     padding-right:15px;
@@ -187,6 +216,11 @@ footer ul{
     
 }
 @media screen and (max-width: 767px) {
+    
+    .form-header{
+        float:none;
+        margin:0 auto;
+    }
     
     #quick-quote{
         float:none;
