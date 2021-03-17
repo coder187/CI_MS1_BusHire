@@ -401,6 +401,42 @@ footer ul{
     width: 18rem;
     text-align: center;
     margin: 0 auto;
-          
 }
-    
+
+/*****************FLEET PAGE******************************/
+
+.vehicle-desc{
+    height:200px;
+    padding-bottom:20px;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 45%; 
+   left: 3%; 
+   width: 100%; 
+   
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding:10px; 
+}
+
+.vehicle-desc ul li{
+    font-family: "Work Sans",sans-serif;
+    color:#185F42;
+}
+
+.text-desc{
+    padding-top:20px;
+}

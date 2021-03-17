@@ -136,6 +136,7 @@ https://www.markdownguide.org/basic-syntax/
 https://css-tricks.com/animating-number-counters/
 https://www.w3schools.com/js/
 https://css-tricks.com/snippets/css/css-triangle/
+https://css-tricks.com/text-blocks-over-image/
 
 centering the welcome text div - overwrite bootstrap padding
 centering spinners - text wrapping - add min height
