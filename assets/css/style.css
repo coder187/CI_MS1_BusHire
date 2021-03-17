@@ -63,23 +63,9 @@ width:100%;
     position:absolute;
     /*background-color: rgba(94, 23, 53, .5); */
     background-color: rgba(24, 95, 66, .5); /*opacity*/
-}
-
-/*------------ Contact US Now --------------*/
-.contactusnow{
-    background-color: #CE145F;
-    height:25px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-    color:#fafafa;
-}
-    
+}    
 /*------------ Quick Contact Form --------------*/
 .form-header{
-    
     height: 100px;
     width: 450px;
     padding-left: 30px;
@@ -89,35 +75,30 @@ width:100%;
     font-family: "Roboto";
     font-size: 4em;
     color :#185F42;
+    /*position:absolute;*/
+
+    
 }
-.left-arrow {
+
+.left-arrow, .right-arrow{
 	border-color: transparent #185F42;
 	border-style: solid;
-	border-width: 40px 40px 40px 0px;
 	height: 0px;
 	width: 0px;
+}
+
+.left-arrow{
+    border-width: 40px 40px 40px 0px;
 }
 
 .right-arrow {
-	border-color: transparent #185F42;
-	border-style: solid;
-	border-width: 40px 0px 40px 40px;
-	height: 0px;
-	width: 0px;
+    border-width: 40px 0px 40px 40px;
 }
-
-.quote-text{
-    position:relative;
-    top:20px;
-    left:60px;
-    color: white;
-}
-
 
 
 #quick-quote{
     padding-top:0px;
-    width:450px; /*480 */
+    /*width:450px; */
     padding-left:15px;
     padding-right:15px;
     float:right;
@@ -142,6 +123,18 @@ padding: 5px 15px;
     margin-bottom:20px
 }
 
+
+/*------------ Contact US Now --------------*/
+.contactusnow{
+    background-color: #CE145F;
+    height:25px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#fafafa;
+}
 
 /*------------ Footer --------------*/
 
@@ -206,15 +199,7 @@ footer ul{
 
 
 /*------------ Media Queries General--------------*/
-
-
-@media screen and (max-width: 577px) { 
-    .contactusnow{
-        font-size: small;
-        height:50px;
-    }
     
-}
 @media screen and (max-width: 767px) {
     
     .form-header{
@@ -245,9 +230,10 @@ footer ul{
    
 }
 
-@media screen and (max-width: 300px) {
-    #quick-quote{
-        width:270px !important; 
+@media screen and (max-width: 577px) { 
+    .contactusnow{
+        font-size: small;
+        height:50px;
     }
 }
 
@@ -257,7 +243,42 @@ footer ul{
         padding-right:5px;
         width:305px; 
     }
+
+    .left-arrow{
+        border-width: 30px 30px 30px 0px;
+    }
+
+    .right-arrow {
+        border-width: 30px 0px 30px 30px;
+    }
+
+    .form-header{
+        width: 305px;
+        padding-left: 15px;
+        padding-right: 5px;
+        font-size: 3em;
+    }
 }
+
+@media screen and (max-width: 300px) {
+    #quick-quote{
+        width:270px !important; 
+    }
+    .form-header{
+        width: 270px !important;
+        font-size: 1.5em;
+    }
+
+    .left-arrow{
+        border-width: 20px 20px 20px 0px !important;
+    }
+
+    .right-arrow {
+        border-width: 20px 0px 20px 20px !important;
+    }
+    
+}
+
 
 /*----------------------------About Section--------------------------------------------------*/
 

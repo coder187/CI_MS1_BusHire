@@ -135,12 +135,17 @@ https://purepng.com/
 https://www.markdownguide.org/basic-syntax/
 https://css-tricks.com/animating-number-counters/
 https://www.w3schools.com/js/
+https://css-tricks.com/snippets/css/css-triangle/
 
 centering the welcome text div - overwrite bootstrap padding
 centering spinners - text wrapping - add min height
 spinner circle not centereddue to large number - add padding-top to circle
 media query 300px not running without !important
 ipad welcome text bleed right margin
+form not floating right at high resoluutin(above 1869).
+
+
+set posiotin abs seems to fix.
 ## Content
 
 ## Acknowledgements
