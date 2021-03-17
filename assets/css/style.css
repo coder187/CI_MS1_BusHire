@@ -70,14 +70,11 @@ width:100%;
     width: 450px;
     padding-left: 30px;
     padding-right: 15px;
-    float: right;
+    /*float: right;*/
     margin: 0;
     font-family: "Roboto";
     font-size: 4em;
-    color :#185F42;
-    /*position:absolute;*/
-
-    
+    color :#185F42;    
 }
 
 .left-arrow, .right-arrow{
@@ -95,13 +92,15 @@ width:100%;
     border-width: 40px 0px 40px 40px;
 }
 
+.contact-form-outer{
+    float:right;
+}
 
 #quick-quote{
     padding-top:0px;
-    /*width:450px; */
+    width:450px; 
     padding-left:15px;
     padding-right:15px;
-    float:right;
 }
 
 .form-control:hover{
@@ -202,8 +201,14 @@ footer ul{
     
 @media screen and (max-width: 767px) {
     
-    .form-header{
+    .contact-form-outer{
         float:none;
+        margin:0 auto;
+    }
+    
+    
+    .form-header{
+    float:none;
         margin:0 auto;
     }
     
@@ -211,7 +216,8 @@ footer ul{
         float:none;
         margin:0 auto;
     }
-
+    
+    
     .col2{
         padding-top:10px;
         height:200px;

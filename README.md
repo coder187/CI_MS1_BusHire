@@ -142,8 +142,9 @@ centering spinners - text wrapping - add min height
 spinner circle not centereddue to large number - add padding-top to circle
 media query 300px not running without !important
 ipad welcome text bleed right margin
-form not floating right at high resoluutin(above 1869).
 
+contact form breaks from float right at high resoluutin(above 1869). fix - wrap contact form header and form element in a div and float the div right.
+notice a left - right horizontal scroll - also on demo sites - so possibly not a bug.
 
 set posiotin abs seems to fix.
 ## Content
