@@ -415,7 +415,7 @@ footer ul{
    width: 100%; /* for IE 6 */
 }
 
-h2 { 
+.vehicle-desc h2 { 
    position: absolute; 
    top: 45%; 
    left: 3%; 
