@@ -26,10 +26,10 @@
         
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0"><!-- mr-atuo push left --> 
-                <li class="nav-item active "><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link nav-item" href="#about-kelly-travel">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#quote">Instant Quote</a></li>
-                <li class="nav-item"><a class="nav-link" href="#kelly-travel-fleet">Fleet Profile</a></li>
+                <li class="nav-item active "><a class="nav-link" href="index.htm">Home</a></li>
+                <li class="nav-item"><a class="nav-link nav-item" href="index.htm#about-kelly-travel">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.htm#quote">Instant Quote</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.htm#kelly-travel-fleet">Fleet Profile</a></li>
                 <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
             </ul>
         
@@ -60,10 +60,11 @@
                             <div class="left-arrow"></div>
                         </div>
                     </div> <!-- end form header-->
-                    <form method="POST" action="conf.html" id="quick-quote">
+                    <form action="conf.html" id="quick-quote"> 
+                    <!-- <form id="quick-quote"> -->
                         <div class="form-row">
                             <div class="col">
-                                <select class="form-control" required>
+                                <select class="form-control" aria-label="Select Bus Size" required>
                                     <option value="" selected>Select Bus Size</option>
                                     <option value="1">&#60; 17 Seats </option>
                                     <option value="2">17 - 35</option>
@@ -74,30 +75,30 @@
                         </div>
                         <div class="form-row">
                             <div class="col">
-                                <input type="date" class="form-control" required>
+                                <input type="date" class="form-control" aria-label="Select date of travel" required>
                             </div>
                         </div> <!-- end from row -->
                         <div class="form-row">
                             <div class="col-6">
-                                <input type="text" class="form-control" placeholder="Collection" required>
+                                <input type="text" class="form-control" placeholder="Collection" aria-label="Collection Point" required>
                             </div>
                             <div class="col-6">
-                                <input type="text" class="form-control" placeholder="Destination" required>
+                                <input type="text" class="form-control" placeholder="Destination" aria-label="Destination" required>
                             </div>
                         </div> <!-- end from row -->
                         <div class="form-row">
                             <div class="col">
-                                <input type="email" class="form-control" placeholder="Email" required>
+                                <input type="email" class="form-control" placeholder="Email" aria-label="Email address" required>
                             </div>
                         </div> <!-- end from row -->
                         <div class="form-row">
                             <div class="col">
-                                <textarea class="form-control" rows="3" placeholder="Any Additional Info" required></textarea>
+                                <textarea class="form-control" rows="3" placeholder="Any Additional Info" aria-label="Additional Requirements" required></textarea>
                             </div>
                         </div> <!-- end from row -->
                         <div class="form-row">
                             <div class="col">
-                                <input type="submit" class="form-control" value="Get a Free Quote" id="quote-button">
+                                <input type="submit" class="form-control" value="Get a Free Quote" id="quote-button" aria-label="Submit">
                             </div>
                         </div> <!-- end from row -->
                     </form>
@@ -136,7 +137,7 @@
                         <div class ="about-para-heading">
                             <h2>Experience That Cant Be Beaten <i class="fa fa-user-shield"></i></h2>
                             <hr>
-                            <p>Estabished in 1988, Kelly Travel have grown over the decades into the midwest's leading provider of minibus and coach hire services. 
+                            <p>Established in 1988, Kelly Travel have grown over the decades into the midwest's leading provider of minibus and coach hire services. 
                             Let our experience be your guide.
                             </p>
                         </div>
