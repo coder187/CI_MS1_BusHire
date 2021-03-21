@@ -15,7 +15,7 @@ The end user of the system will be current and potential customers of Kelly Trav
 This includes a very wide range of people, so ease of use and responsive design are of utmost importance.
 It is envisaged that the site will encourage interest in the companies services 
 from a younger audience as the current site is not fully responsive and so engagement is somewhat diminised.
-A modern UX will hopefully bring the companes services to an even wider audience.
+A modern UX will hopefully bring the companies services to an even wider audience.
 
 ## Business Goals
 * Build brand awareness.
@@ -56,11 +56,11 @@ A modern UX will hopefully bring the companes services to an even wider audience
 ## Features
 The website consists of 3 pages, home page, fleet page and a quote sent conifrmation page.
 Each page features a responsive navigation bar with conventional placing of logo (top left).
-Each page has a footer with contact information and social media icons linking the companies social media accs. This ensures good UX via a consistemt look and feel for the user.
+Each page has a footer with contact information and social media icons linking to the companies social media accounts. This ensures good UX via a consistent look and feel for the user.
 		
 The home page has a hero image at the top with a Contact form overlayed ontop and postioned to the lef  of the viewport. 
-To the right a brief a message welcomes users the site. The purpose of the hero image is to grab attention and give a positive emotional response to the user, 
-while having the contact form at top allows the user to request a quote without further navigation.
+To the right a brief message welcomes users the site. The purpose of the hero image is to grab attention and give a positive emotional response to the user, 
+while having the contact form on top allows the user to request a quote without further navigation.
 
 The qucik quote contact form requests a 
 bus size(drop down select), 
@@ -74,17 +74,17 @@ Quote Sent Confirmation message and link back to the home page.
 
 After the hero image there are some key points on why the user should consider this company for their requirements.
 
-Next we have a bright high res image of some happy people on a bus to help reinforce the users emotional response.
+Next we have a bright high resolution image of some happy people on a bus to help reinforce the users emotional response.
 
 Following the image we have four animated numerical counters which show further key aspects of the business strengths. 
 This is intended to convey information in an effiecnet and pleasing manner.
 	
-The Fleet section follows, with clear and consice images and text for eacg category of vehicle available. 
+The Fleet section follows, with clear and consice images and text for each category of vehicle available. 
 The call to action button leads the user to the Fleet page which has more details on each categroy of vehicles.
 
 The Fleet page is laid out in columns of images and bullet point text with a single columnn for mobile devices, two columns for tablets
 and three columns for larger screens. The images are high resolution examples from each vehilce category and 
-the text describes the features of each categroy.
+the text describes the features of each category.
 
 ### Existing Features
 
@@ -104,7 +104,7 @@ vehicles from each category.
 * Add Search function - Allow users quicly search by keyword within the site.
 * The website should retrieve the users location for use on the contact form. - Geo Servics API/Javascript Needed.
 * As a potential customer I would like to read (& post) social reviews placed by exisitng customers. Facebook / Tripadviser Links - Javascript Needed.)
-* In futuire, I would like to extend this project to a Full Stack implentation with backend clould based services. (Not necessarily as part of Code Institute Course.)
+* In future, I would like to extend this project to a Full Stack implementation with backend clould based services. (Not necessarily as part of Code Institute Course.)
 
 
 ## Technologies Used
@@ -132,10 +132,13 @@ vehicles from each category.
 * [w3schools](https://www.w3schools.com/) - help with HTML, CSS & Javascript
 * [Stackoverflow](https://stackoverflow.com/) - help with HTML, CSS & Javascript
 * [CSS-Tricks](https://css-tricks.com/animating-number-counters/) - help with HTML, CSS & Javascript
+* [CSS-Tricks](https://css-tricks.com/snippets/css/css-triangle/) - implementation of triangle effect above quote form.
+* [CSS-Tricks](https://css-tricks.com/text-blocks-over-image/) - implementation of text block of images on Fleet page.
 * [Slack](https://slack.com/intl/en-ie/) - communiucation hub with mentor, tutors and fellow students.
 * [Pure PNG](https://purepng.com/) - Free PNG Imgage Library.
-* [Free Images.com](https://www.freeimages.com/)
+* [Free Images.com](https://www.freeimages.com/) Free Image Library.
 * [Tiny PNG](https://tinypng.com/) - Compress PNG files.
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax/) - Markdown Gudie for this readme file.
 
 ## Strategy
 ### User Needs.
