@@ -92,11 +92,11 @@ the text describes the features of each categroy.
 * Header Navigation Bar - Exists on every page and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
 * [Footer](https://coder187.github.io/CI_MS1_BusHire/#footer) Contact Info - Exists on every page.
 * Footer Social Icons - Exist on every page and allows all users to access the social platforms of the company.
-* [Quick Contact Form] (https://coder187.github.io/CI_MS1_BusHire/index.htm#quote) - Allows potential clients to ask questions, and/or make the first step in their ordering process.
-* About Section - briefly and conscisely communicate key differentiating points to potential customers 
+* [Quick Contact Form](https://coder187.github.io/CI_MS1_BusHire/index.htm#quote) - Allows potential clients to ask questions, and/or make the first step in their ordering process.
+* [About](https://coder187.github.io/CI_MS1_BusHire/index.htm#about-kelly-travel) Section - briefly and conscisely communicate key differentiating points to potential customers 
 * Animated Numerical Counters - Convey further key advantages of the company.
-* Fleet Section: Show categories of vehicles available for hire
-* Fleet Details Page: Show bullet points of each vehcile category alongside high resolution images of
+* [Fleet](https://coder187.github.io/CI_MS1_BusHire/index.htm#kelly-travel-fleet) Section -  Show categories of vehicles available for hire
+* [Fleet Details Page](https://coder187.github.io/CI_MS1_BusHire/fleet.html) -  Show bullet points of each vehcile category alongside high resolution images of
 vehicles from each category.
 
 ### Features Left To Implement In Future
@@ -105,6 +105,37 @@ vehicles from each category.
 * The website should retrieve the users location for use on the contact form. - Geo Servics API/Javascript Needed.
 * As a potential customer I would like to read (& post) social reviews placed by exisitng customers. Facebook / Tripadviser Links - Javascript Needed.)
 * In futuire, I would like to extend this project to a Full Stack implentation with backend clould based services. (Not necessarily as part of Code Institute Course.)
+
+
+## Technologies Used
+* [HTML5](https://www.w3.org/)
+* [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+* [Bootstrap v4.1.3](https://getbootstrap.com/) - to aid responsive design.
+* [JQuery](https://jquery.com/)
+* [Popper JS](https://popper.js.org/)
+* [Hover JS](https://ianlunn.github.io/Hover/) - Used for hover effect on social media icons.
+* [Fontawesome v5.15.2](https://fontawesome.com/) - Icons from fontawesome for the social media links and on the About section.
+* [Javascript](https://www.javascript.com/) - for the animated numerical counters.
+* [Google Fonts](https://fonts.google.com/) - I used font family Roboto and Work Sans provided by Google Fonts.
+* [Gitpod](https://gitpod.io/) - IDE 
+* [Github](https://www.github.com/) - version control and backup.
+* [Gimp 2](https://www.gimp.org/) - image manipulation.
+* [Google Chrome Dev tools](https://developers.google.com/web/tools/chrome-devtools) for debugging.
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge) Dev Tools for testing and debugging.
+* Microsoft Internet Explorer for additional testing.
+* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) for debugging.
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance audit.
+* [W3C Markup Validation Service](https://validator.w3.org/)
+* [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Code Institute Course Material](https://codeinstitute.net/)
+* [Bootstrap Documentation](https://getbootstrap.com/docs/versions/)
+* [w3schools](https://www.w3schools.com/) - help with HTML, CSS & Javascript
+* [Stackoverflow](https://stackoverflow.com/) - help with HTML, CSS & Javascript
+* [CSS-Tricks](https://css-tricks.com/animating-number-counters/) - help with HTML, CSS & Javascript
+* [Slack](https://slack.com/intl/en-ie/) - communiucation hub with mentor, tutors and fellow students.
+* [Pure PNG](https://purepng.com/) - Free PNG Imgage Library.
+* [Free Images.com](https://www.freeimages.com/)
+* [Tiny PNG](https://tinypng.com/) - Compress PNG files.
 
 ## Strategy
 ### User Needs.
