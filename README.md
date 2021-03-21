@@ -1,4 +1,4 @@
-![KT logo](http://concert-travel.com/assets/logo/kt_logo.png)
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/supp/air/brochure.png)
 
 # Kelly Travel - Bus Hire Website
 [Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/)
