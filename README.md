@@ -45,13 +45,13 @@ A modern UX will hopefully bring the companies services to an even wider audienc
 
 ## Wireframes
 
-* [Landing page Mobile](http://github.com)
-* [Landing page Tablet](http://github.com)
-* [Landing page Desktop](http://github.com)
+* [Landing page Mobile](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/home%20mobile.png)
+* [Landing page Tablet](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/home%20tablet.png)
+* [Landing page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/Home%20desktop.png)
 
-* [Fleet page Mobile](http://github.com)
-* [Fleet page Tablet](http://github.com)
-* [Fleet page Desktop](http://github.com)
+* [Fleet page Mobile](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20mobile.png)
+* [Fleet page Tablet](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20tablet.png)
+* [Fleet page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20desktop.png)
  
 ## Features
 The website consists of 3 pages, home page, fleet page and a quote sent conifrmation page.
