@@ -1,41 +1,110 @@
 ![KT logo](http://concert-travel.com/assets/logo/kt_logo.png)
 
 # Kelly Travel - Bus Hire Website
+[Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/)
 
 Project - User-Centric Frontend Development - Code Institute
 
-The project will produce a simple brochure website for the Limerick based bus hire opertor - Kelly Travel.
+The project will produce a simple brochure website for the Limerick based bus hire operator - Kelly Travel.
 
-The idea behind the project is to help support and enhance the companies current web and social media presenc via a user friendly  & mobile responsive site with some 
-basic information on the company and services offered.
+The idea behind the project is to help support and enhance the companies current web and social media presence via a user friendly & mobile responsive site with some 
+basic information on the company and services available.
 
-## Showcase
-A deployed link to the website can be found here. <link>
 
-# UX
-
-## User Stories
 The end user of the system will be current and potential customers of Kelly Travel.
 This includes a very wide range of people, so ease of use and responsive design are of utmost importance.
-
-The site will have information on the company including:
-* Office Contact Information.
-* Emergency Contact Information.
-* Brief Fleet Examples.
-* A "Quick Quote" form.
-
 It is envisaged that the site will encourage interest in the companies services 
 from a younger audience as the current site is not fully responsive and so engagement is somewhat diminised.
 A modern UX will hopefully bring the companes services to an even wider audience.
 
-One key requirement is to have a an accessable site.
+## Business Goals
+* Build brand awareness.
+* Drive sales in the form of quick and easy quote request mechanism.
+* Communicate key differentiating points to potential customers 
+    * Experience 
+    * Safety.
+    * Environmentally Friendly
+    * Accessibility
+* Be intuitive and pleasing to use via good UX.
+* Encourage repeat visits.
 
-* As a potential customer I want to get contact information for local bus companies.
-* As a potential customer I want information on the type of vehicles available for hire.
-* As a potential customer I would like to see the types of journeys catered for.
-* As a potential customer I would like to know if the company can provide disability friendly vehicles.
-* As a potential customer I want to send a request for a quote for hire via the contact page.
-* As a potential customer I want to view timetable data for operated routes.
+## User Goals 
+* Easily find contact info for local bus hire company.
+* Easily request a quote.
+* View available vehicle options.
+
+# UX
+## User Stories
+1. As a potential customer I want to get contact information for local bus companies.
+2. As a potential customer I want information on the type of vehicles available for hire.
+3. As a potential customer I would like to see the types of journeys catered for.
+4. As a potential customer I would like to know if the company can provide disability friendly vehicles.
+5. As a potential customer I want to send a request for a quote for hire via the contact page.
+6. As a potential customer I want to easily and intuitively navigate the site so that I so I can find what I need efficiently.
+7. As a potential customer I want to follow the companies social media accounts so that I can see their latest news and posts.
+
+## Wireframes
+
+* [Landing page Mobile](http://github.com)
+* [Landing page Tablet](http://github.com)
+* [Landing page Desktop](http://github.com)
+
+* [Fleet page Mobile](http://github.com)
+* [Fleet page Tablet](http://github.com)
+* [Fleet page Desktop](http://github.com)
+ 
+## Features
+The website consists of 3 pages, home page, fleet page and a quote sent conifrmation page.
+Each page features a responsive navigation bar with conventional placing of logo (top left).
+Each page has a footer with contact information and social media icons linking the companies social media accs. This ensures good UX via a consistemt look and feel for the user.
+		
+The home page has a hero image at the top with a Contact form overlayed ontop and postioned to the lef  of the viewport. 
+To the right a brief a message welcomes users the site. The purpose of the hero image is to grab attention and give a positive emotional response to the user, 
+while having the contact form at top allows the user to request a quote without further navigation.
+
+The qucik quote contact form requests a 
+bus size(drop down select), 
+date of travel, 
+collection point, 
+destination, 
+contact email and an additional information text area. 
+The bottom of the form has a "Get a Free Quote" button. 
+When this button is clicked and all the form fields are validated the confirmation page loads with a 
+Quote Sent Confirmation message and link back to the home page.
+
+After the hero image there are some key points on why the user should consider this company for their requirements.
+
+Next we have a bright high res image of some happy people on a bus to help reinforce the users emotional response.
+
+Following the image we have four animated numerical counters which show further key aspects of the business strengths. 
+This is intended to convey information in an effiecnet and pleasing manner.
+	
+The Fleet section follows, with clear and consice images and text for eacg category of vehicle available. 
+The call to action button leads the user to the Fleet page which has more details on each categroy of vehicles.
+
+The Fleet page is laid out in columns of images and bullet point text with a single columnn for mobile devices, two columns for tablets
+and three columns for larger screens. The images are high resolution examples from each vehilce category and 
+the text describes the features of each categroy.
+
+### Existing Features
+
+* Header [Logo](https://coder187.github.io/CI_MS1_BusHire/assets/img/kt_logo.png) - Exists on every page and allows all users to easily recognise the business brand. Clicking the logo returns users to the home page as they would expect.
+* Header Navigation Bar - Exists on every page and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
+* [Footer](https://coder187.github.io/CI_MS1_BusHire/#footer) Contact Info - Exists on every page.
+* Footer Social Icons - Exist on every page and allows all users to access the social platforms of the company.
+* [Quick Contact Form] (https://coder187.github.io/CI_MS1_BusHire/index.htm#quote) - Allows potential clients to ask questions, and/or make the first step in their ordering process.
+* About Section - briefly and conscisely communicate key differentiating points to potential customers 
+* Animated Numerical Counters - Convey further key advantages of the company.
+* Fleet Section: Show categories of vehicles available for hire
+* Fleet Details Page: Show bullet points of each vehcile category alongside high resolution images of
+vehicles from each category.
+
+### Features Left To Implement In Future
+* Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed.
+* Add Search function - Allow users quicly search by keyword within the site.
+* The website should retrieve the users location for use on the contact form. - Geo Servics API/Javascript Needed.
+* As a potential customer I would like to read (& post) social reviews placed by exisitng customers. Facebook / Tripadviser Links - Javascript Needed.)
+* In futuire, I would like to extend this project to a Full Stack implentation with backend clould based services. (Not necessarily as part of Code Institute Course.)
 
 ## Strategy
 ### User Needs.
@@ -68,13 +137,6 @@ The footer that has links to social media platforms.
 
 ## Skeleton
 
-Wireframes:
-
-[Landing page Mobile](http://github.com)
-
-[Landing page Desktop](http://github.com)
- 
-## Features
 
 
 Home page:
