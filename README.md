@@ -198,12 +198,64 @@ Various vehicle options.
 
 
 ## Deployment
+### Github Pages
+1. On GitHub, navigate to your site's repository.
+2. Under your repository name, click **Settings**.
+![](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
+3. Under "GitHub Pages", use the **None** or **Branch** drop-down menu and select a publishing source.
+![](https://docs.github.com/assets/images/help/pages/publishing-source-drop-down.png)
+4. Optionally, use the drop-down menu to select a folder for your publishing source.
+![](https://docs.github.com/assets/images/help/pages/publishing-source-folder-drop-down.png)
+5. Click **Save**.
+
+### Deploy Locally via GIT
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+![](https://docs.github.com/assets/images/help/repository/code-button.png)
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link text or click the icon to right. 
+To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, 
+click **Use SSH**, then copy the link or click the icon.
+To clone a repository using GitHub CLI, click **Use GitHub CLI**, then copy the link text.
+![](https://docs.github.com/assets/images/help/repository/https-url-clone.png)
+![](https://docs.github.com/assets/images/help/repository/https-url-clone-cli.png)
+4. Open Git Bash (or command prompt on Windows. Note you will need [GIT](https://git-scm.com/download/win) for Windows
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type ```git clone``` and then paste the URL you copied earlier.\
+```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
+7. Press **Enter** to create your local clone.
+
+### Deploy Locally via zip file download
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+![](https://docs.github.com/assets/images/help/repository/code-button.png)
+3. Click **Download Zip**
+4. Extract the downloaded file to the location where you want the cloned directory.
+
+
 
 ## Bugs
 about section : text not aligned bcause float had right instead of left
 font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
 
 ## Credits
+### Content 
+The content of the site describes a real life company in Limerick, Kelly Travel (family business) and is used here with consent.
+
+### Media 
+The hero & vehicle category images are taken from [Pure PNG](https://purepng.com/)
+
+### Acknowledgements
+I relied heavily upon the sample course mini projects, particularly Love Running, Portfolio Project & Whiskey Drop as inspiration for the site layout and features.
+
+My mentor, Dick Vlaanderen was of great assistance and provided excellent leadership where needed.
+
+**Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Jonathan Kelly**
+
+
+
+
 wireframes  : balsamiq
 sample readme : https://github.com/Code-Institute-Solutions/readme-template
 https://www.typewolf.com/google-fonts
@@ -228,9 +280,6 @@ set posiotin abs seems to fix.
 
 ## Acknowledgements
 
-**This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
-
-**Created by Jonathan Kelly**
 
 ## Gitpod Reminders
 
