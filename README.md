@@ -139,6 +139,8 @@ vehicles from each category.
 * [Free Images.com](https://www.freeimages.com/) Free Image Library.
 * [Tiny PNG](https://tinypng.com/) - Compress PNG files.
 * [Markdown Guide](https://www.markdownguide.org/basic-syntax/) - Markdown Gudie for this readme file.
+* [Balsamiq](https://balsamiq.com/) - Wireframe Development
+* [Am I Responsive](http://ami.responsivedesign.is/) - Screen Grab of site on various devices.
 
 ## Strategy
 ### User Needs.
@@ -186,29 +188,6 @@ Our Fleet:
 Various vehicle options.
 
 
-## Existing Features
-* Responsive Design.
-* Quick Contact Form.
-* Smooth scrolling for better UX.
-
-
-## Features Left to Implement
-* As a potential customer I would like to search the site using the site serach function.
-* The sebsite should retrieve the users location for use on the comtact form.
-* As a potential customer I would like to get an instant quote for my travel requirements. (front end js or backend vb/c#/python
-* As a potential customer I would like to read (& post) social reviews placed by exisitng customers. (link to social review system - facebook / tripadviser.)
-* As a potential customer I would like to see realtime information in relation to carraige services
-(e.g. Route 789 "is on time, next stop xyz in x mins") -- (telematics api)
-* As a potential customer I would like to book an individual seat and recieve an eticket. (sql db + vb/c#)
-
-## Technologies Used
-* HTML5
-* CSS3
-* Bootstrap v4.3.1
-* Google Chrome Dev tools for debugging
-* Google Light house for performance audits
-
-
 ## Testing
 
 ### Testing planning.
@@ -223,6 +202,7 @@ Various vehicle options.
 ## Bugs
 about section : text not aligned bcause float had right instead of left
 font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
+
 ## Credits
 wireframes  : balsamiq
 sample readme : https://github.com/Code-Institute-Solutions/readme-template
