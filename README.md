@@ -142,6 +142,84 @@ vehicles from each category.
 * [Balsamiq](https://balsamiq.com/) - Wireframe Development
 * [Am I Responsive](http://ami.responsivedesign.is/) - Screen Grab of site on various devices.
 
+
+## Testing
+
+### Testing planning.
+
+## Implementation
+
+## Results and outcomes
+
+## Deployment
+### Github Pages
+1. On GitHub, navigate to your site's repository.
+2. Under your repository name, click **Settings**.
+![](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
+3. Under "GitHub Pages", use the **None** or **Branch** drop-down menu and select a publishing source.
+![](https://docs.github.com/assets/images/help/pages/publishing-source-drop-down.png)
+4. Optionally, use the drop-down menu to select a folder for your publishing source.
+![](https://docs.github.com/assets/images/help/pages/publishing-source-folder-drop-down.png)
+5. Click **Save**.
+
+### Deploy Locally via GIT
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+![](https://docs.github.com/assets/images/help/repository/code-button.png)
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link text or click the icon to right. 
+To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, 
+click **Use SSH**, then copy the link or click the icon.
+To clone a repository using GitHub CLI, click **Use GitHub CLI**, then copy the link text.
+![](https://docs.github.com/assets/images/help/repository/https-url-clone.png)
+![](https://docs.github.com/assets/images/help/repository/https-url-clone-cli.png)
+4. Open Git Bash (or command prompt on Windows. Note you will need [GIT](https://git-scm.com/download/win) for Windows
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type ```git clone``` and then paste the URL you copied earlier.\
+```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
+7. Press **Enter** to create your local clone.
+
+### Deploy Locally via zip file download
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+![](https://docs.github.com/assets/images/help/repository/code-button.png)
+3. Click **Download Zip**
+4. Extract the downloaded file to the location where you want the cloned directory.
+
+
+
+## Bugs
+about section : text not aligned bcause float had right instead of left
+font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
+
+centering the welcome text div - overwrite bootstrap padding
+centering spinners - text wrapping - add min height
+spinner circle not centereddue to large number - add padding-top to circle
+media query 300px not running without !important
+ipad welcome text bleed right margin
+
+contact form breaks from float right at high resoluutin(above 1869). fix - wrap contact form header and form element in a div and float the div right.
+notice a left - right horizontal scroll - also on demo sites - so possibly not a bug.
+
+set posiotin abs seems to fix.
+
+## Credits
+### Content 
+The content of the site describes a real life company in Limerick, Kelly Travel (family business) and is used here with consent.
+
+### Media 
+The hero & vehicle category images are taken from [Pure PNG](https://purepng.com/)
+The vehicle internal images on Fleet page are of Kelly Travel vehicles.
+
+### Acknowledgements
+I relied heavily upon the sample course mini projects, particularly Love Running, Portfolio Project & Whiskey Drop as inspiration for the site layout and features.
+
+My mentor, Dick Vlaanderen was of great assistance and provided excellent leadership where needed.
+
+**Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Jonathan Kelly**
+
+
 ## Strategy
 ### User Needs.
 The needs of the user is to fulfil the capabilites of using this application on their mobile and tablet devices. 
@@ -187,136 +265,3 @@ Highlighting the services the charity currently offers.
 Our Fleet:
 Various vehicle options.
 
-
-## Testing
-
-### Testing planning.
-
-## Implementation
-
-## Results and outcomes
-
-
-## Deployment
-### Github Pages
-1. On GitHub, navigate to your site's repository.
-2. Under your repository name, click **Settings**.
-![](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
-3. Under "GitHub Pages", use the **None** or **Branch** drop-down menu and select a publishing source.
-![](https://docs.github.com/assets/images/help/pages/publishing-source-drop-down.png)
-4. Optionally, use the drop-down menu to select a folder for your publishing source.
-![](https://docs.github.com/assets/images/help/pages/publishing-source-folder-drop-down.png)
-5. Click **Save**.
-
-### Deploy Locally via GIT
-1. On GitHub, navigate to the main page of the repository.
-2. Above the list of files, click Code.
-![](https://docs.github.com/assets/images/help/repository/code-button.png)
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link text or click the icon to right. 
-To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, 
-click **Use SSH**, then copy the link or click the icon.
-To clone a repository using GitHub CLI, click **Use GitHub CLI**, then copy the link text.
-![](https://docs.github.com/assets/images/help/repository/https-url-clone.png)
-![](https://docs.github.com/assets/images/help/repository/https-url-clone-cli.png)
-4. Open Git Bash (or command prompt on Windows. Note you will need [GIT](https://git-scm.com/download/win) for Windows
-5. Change the current working directory to the location where you want the cloned directory.
-6. Type ```git clone``` and then paste the URL you copied earlier.\
-```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
-7. Press **Enter** to create your local clone.
-
-### Deploy Locally via zip file download
-1. On GitHub, navigate to the main page of the repository.
-2. Above the list of files, click Code.
-![](https://docs.github.com/assets/images/help/repository/code-button.png)
-3. Click **Download Zip**
-4. Extract the downloaded file to the location where you want the cloned directory.
-
-
-
-## Bugs
-about section : text not aligned bcause float had right instead of left
-font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
-
-## Credits
-### Content 
-The content of the site describes a real life company in Limerick, Kelly Travel (family business) and is used here with consent.
-
-### Media 
-The hero & vehicle category images are taken from [Pure PNG](https://purepng.com/)
-
-### Acknowledgements
-I relied heavily upon the sample course mini projects, particularly Love Running, Portfolio Project & Whiskey Drop as inspiration for the site layout and features.
-
-My mentor, Dick Vlaanderen was of great assistance and provided excellent leadership where needed.
-
-**Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
-
-**Created by Jonathan Kelly**
-
-
-
-
-wireframes  : balsamiq
-sample readme : https://github.com/Code-Institute-Solutions/readme-template
-https://www.typewolf.com/google-fonts
-https://purepng.com/
-https://www.markdownguide.org/basic-syntax/
-https://css-tricks.com/animating-number-counters/
-https://www.w3schools.com/js/
-https://css-tricks.com/snippets/css/css-triangle/
-https://css-tricks.com/text-blocks-over-image/
-
-centering the welcome text div - overwrite bootstrap padding
-centering spinners - text wrapping - add min height
-spinner circle not centereddue to large number - add padding-top to circle
-media query 300px not running without !important
-ipad welcome text bleed right margin
-
-contact form breaks from float right at high resoluutin(above 1869). fix - wrap contact form header and form element in a div and float the div right.
-notice a left - right horizontal scroll - also on demo sites - so possibly not a bug.
-
-set posiotin abs seems to fix.
-## Content
-
-## Acknowledgements
-
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
