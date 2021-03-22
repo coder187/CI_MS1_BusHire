@@ -46,6 +46,7 @@ The TDD method consists of a cycle of :
 | Add contact form to left column | Form should stay left of screen except at mobile view where it should center on screen and reduce font size | Pass |
 | Add required tag to all form fields | Form will not submit unless all fields are populated. | Pass |
 | Add aria labels to each form control | Screen reader software will read aria label contents.| Pass |
+| Add submit button to quote form | On successful submit the button loads conf.html which displays a confirmational message.| Pass |
 | Add welcome text paragraph to right column | Paragraph should display on right of screen except at mobile view where it should wrap underneath the qocntact form.| Pass |
 | Add hero image as background to header section | Image should center on header section. | Pass |
 | Add contact us paragraph below header section| Contact us text should center horizontally at all resolutions | Pass |
@@ -113,7 +114,6 @@ I tested the site layout using the built in  Chrome Dev Tools with following dev
 | Galaxy Fold| 512x717 | None | Portrait|
 | Galaxy Fold| 717x512 | None | Landscape|
 
-
 I tested the site layout using physical devices as follows:
 | Device | Browser |Resolution | Throttling | Orientation |
 |---------|------------|------------|-------------|--------|
@@ -121,6 +121,8 @@ I tested the site layout using physical devices as follows:
 | Samsung S5 NEO on Android 6.0.1 | Android Chrome | x | Cellular / Broadband | Landscape|
 | Samsung A50 on Android 10 | Android Chrome | 412x892 | Cellular / Broadband | Portrait|
 | Samsung A50 on Android 10 | Android Chrome | 892x412 | Cellular / Broadband | Landscape|
+| Samsung S10 on Android 9 | Android Chrome | 412x869 | Broadband | Portrait |
+| Samsung S10 on Android 9 | Android Chrome | 869x412 | Broadband | Portrait |
 | Fire HD 10 on Fire OS 5.6.8.0 | Silk Browser | 1280x600 | Cellular / Broadband | Landscape|
 | Fire HD 10 on Fire OS 5.6.8.0 | Silk Browser | 600x1280 | Cellular / Broadband | Portrait |
 | HP Laptop on Win 10 Pro 10.0.19041.867 | Chrome 89.0.4389.90| 1366x768 | None ||
@@ -129,12 +131,11 @@ I tested the site layout using physical devices as follows:
 | HP Laptop on Win 10 Pro 10.0.19041.867 | Internet Explorer 2004| 1366x768 | None ||
 | HP zBook on Win 10 Pro 10.0.19041.685 | Chrome 88.0.4324.190 | 1920x1080 | None ||
 
-
-
-
-
-
-
+## Performance
+I used Chrome Dev Tools Lighthouse to test site performance.
+Accessability, Best Pracrtices & SEO scored very highly, however Performance needs further investigation.
+I was able to gain slight improvment by using Tiny Png to reduce image sizes.
+Lighthouse currently reports a Performance Score of just under 80, which may be partly down to server resources.
 
 **Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
 

@@ -230,19 +230,15 @@ To clone a repository using GitHub CLI, click **Use GitHub CLI**, then copy the 
 
 
 # Bugs
-about section : text not aligned bcause float had right instead of left
-font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
-
-centering the welcome text div - overwrite bootstrap padding
-centering spinners - text wrapping - add min height
-spinner circle not centereddue to large number - add padding-top to circle
-media query 300px not running without !important
-ipad welcome text bleed right margin
-
-contact form breaks from float right at high resoluutin(above 1869). fix - wrap contact form header and form element in a div and float the div right.
-notice a left - right horizontal scroll - also on demo sites - so possibly not a bug.
-
-set posiotin abs seems to fix.
+* about section : text not aligned because float had float right instead of left
+* fontawesome icons not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
+* centering the welcome text div - overwrite bootstrap padding
+* centering spinners - text wrapping - add min height
+* spinner circle not centered due to large number - add padding-top to circle
+* media query 300px not running without !important
+* ipad welcome text bleed right margin
+* contact form breaks from float right at high resoluutin(above 1869). fix - wrap contact form header and form element in a div and float the div right.
+* notice a left - right horizontal scroll - also on demo sites - so possibly not a bug but needs further investiagation.
 
 # Credits
 ## Content 
@@ -256,6 +252,10 @@ The vehicle internal images on Fleet page are of Kelly Travel vehicles.
 I relied heavily upon the sample course mini projects, particularly Love Running, Portfolio Project & Whiskey Drop as inspiration for the site layout and features.
 
 My mentor, Dick Vlaanderen was of great assistance and provided excellent leadership where needed.
+
+Code Institure Tutor Support and Customer Care were invaluable.
+
+Big thank you to my ever patient loved ones and family for allowing me follow this journey!
 
 **Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
 
