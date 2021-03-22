@@ -253,7 +253,7 @@ I relied heavily upon the sample course mini projects, particularly Love Running
 
 My mentor, Dick Vlaanderen was of great assistance and provided excellent leadership where needed.
 
-Code Institure Tutor Support and Customer Care were invaluable.
+Code Institure Tutor Support, Customer Care, fellow students and webinars were invaluable.
 
 Big thank you to my ever patient family for allowing me follow this journey!
 
