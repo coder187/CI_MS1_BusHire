@@ -13,11 +13,13 @@ Project - User-Centric Frontend Development - Code Institute
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     * The site has been validated by W3C CSS Validation Service 
 and W3C Markup Validation Service to check the validity of the website code.
-![]()
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/assets/img/misc/w3c_css.png)
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/assets/img/misc/w3c_html.png)
+
 
 ## Check ALT Tags
 I used [SEOPTIMER](https://www.seoptimer.com) to verify all image alt tags were present.
-![]()
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/assets/img/misc/seoptimer.png)
 
 ## Testing planning.
 With this project I have use Test [Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) model (TDD).
