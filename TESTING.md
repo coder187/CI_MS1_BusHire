@@ -123,11 +123,11 @@ I tested the site layout using physical devices as follows:
 | Samsung A50 on Android 10 | Android Chrome | 892x412 | Cellular / Broadband | Landscape|
 | Fire HD 10 on Fire OS 5.6.8.0 | Silk Browser | 1280x600 | Cellular / Broadband | Landscape|
 | Fire HD 10 on Fire OS 5.6.8.0 | Silk Browser | 600x1280 | Cellular / Broadband | Portrait |
-| HP Laptop on Win 10 Pro 10.0.19041 | Chrome 89.0.4389.90| 1366x768 | Broadband ||
-| HP Laptop on Win 10 Pro 10.0.19041 | Chrome 89.0.4389.90| 800x600 | Broadband ||
-| HP Laptop on Win 10 Pro 10.0.19041 | Edge 89.0.774.57 | 1366x768 | Broadband ||
-| HP Laptop on Win 10 Pro 10.0.19041 | Internet Explorer 2004| 1366x768 | Broadband ||
-
+| HP Laptop on Win 10 Pro 10.0.19041.867 | Chrome 89.0.4389.90| 1366x768 | None ||
+| HP Laptop on Win 10 Pro 10.0.19041.867 | Chrome 89.0.4389.90| 800x600 | None ||
+| HP Laptop on Win 10 Pro 10.0.19041.867 | Edge 89.0.774.57 | 1366x768 | None ||
+| HP Laptop on Win 10 Pro 10.0.19041.867 | Internet Explorer 2004| 1366x768 | None ||
+| HP zBook on Win 10 Pro 10.0.19041.685 | Chrome 88.0.4324.190 | 1920x1080 | None ||
 
 
 
