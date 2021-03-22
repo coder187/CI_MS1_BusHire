@@ -83,7 +83,7 @@ and three columns for larger screens. The images are high resolution examples fr
 the text describes the features of each category.
 
 ## Technical Capabilites
-HTML5 & CSS3 along with Bootstrap 4 framework are the my core strengths in regards to this project.
+HTML5 & CSS3 along with Bootstrap 4 framework are my core strengths in regards to this project.
 
 ## Existing Features
 
@@ -117,7 +117,7 @@ vehicles from each category.
 * [Fleet page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20desktop.png)
 
 Home page:
-The homepage will be a landing page for the user and give them the warm welcome with a contact form overlayed the hero image.
+The homepage will be a landing page for the user and provide a warm welcome with a contact form overlayed on the hero image.
 
 Reasosn To Travel With Us:
 This section covers a brief overview of who Kelly Travel are, how long they have been in business and why you can trust them.
@@ -200,10 +200,15 @@ and W3C Markup Validation Service to check the validity of the website code.
 ## Testing planning.
 With this project I have use Test [Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) model (TDD).
 
-The TDD method consists of a cycle of write new test, implement new feature, run all tests & repeat all steps untill all tests pass.
+The TDD method consists of a cycle of :
+* write new test
+* implement new feature
+* run all tests & repeat all steps untill all tests pass.
+
+## Implementation
 
 | Action      | Expected Outcome | Result |
-| ----------- | ----------- | ------------|
+| ----------- | ---------------- | -------|
 | Add new blank html page to project | blank page ready for code saved as index.htm | Pass |
 | Add Nav Bar to top of index | Nav Bar should stay at top of page at all screen sizes | Pass |
 | Add Footer Section | Three equal width columns occupying the full width of the page. | Pass |
@@ -240,7 +245,7 @@ The TDD method consists of a cycle of write new test, implement new feature, run
 | Copy Footer Section from Index & paste to Conf.html | Three equal width columns occupying the full width of the page. | Pass |
 | Add single column to Conf.html | Column is responsive to all device sizes. | Pass |
 | Add conent to column | Text and button are responsive to all device sizes. | Pass |
-| Add hyperlink to buttom | Button returns to Index.htm within same window | Pass |
+| Add hyperlink to button | Button returns to Index.htm within same window | Pass |
 | Add new blank html page to project | blank page ready for code saved as fleet.html | Pass |
 | Copy Nav Bar from Index & paste to fleet.html | Nav Bar should stay at top of page at all screen sizes | Pass |
 | Copy Footer Section from Index & paste to fleet.html | Three equal width columns occupying the full width of the page. | Pass |
@@ -249,20 +254,23 @@ The TDD method consists of a cycle of write new test, implement new feature, run
 | Add three rows and three column grid layout | Larger screens : colums align horizontally | Pass |
 | Add content to first column | column contains an image with overlayed text | Pass |
 | Add content to second column | column contains bullet list of features | Pass |
-| Add content to third column | column contains an image| Pass |
-
+| Add content to third column | column contains an image and reacts responsively| Pass |
 | Index page Click Logo  | Load index page | Pass |
-| Index page Menu Click Home  menu item| Load index page     | Pass |
+| Index page Menu Click Home  menu item| Load index page | Pass |
 | Index page Menu Click About menu item  | Load index page and set focus on About Section | Pass |
 | Index page Menu Click Instant Quote menu item  | Load index page and set focus on quote form | Pass |
 | Index page Menu Click Fleet Profile  menu item| Load index page and set focus on Fleet Section  | Pass |
-| Index page Menu Click Contact  menu item| Load index page  and set focus on Footer Section   | Pass |
+| Index page Menu Click Contact menu item| Load index page  and set focus on Footer Section  | Pass |
+| Index page Fleet Section Mini Bus Card - Click Learn More buton| Load Fleet page and set focus on Mini Bus Section | Pass |
+| Index page Fleet Section Midi Coach Card - Click Learn More buton| Load Fleet page and set focus on Midi Coach Section | Pass |
+| Index page Fleet Section Coach Card - Click Learn More buton| Load Fleet page and set focus on Coach Section | Pass |
+| Fleet page Click Logo  | Load index page | Pass |
+| Fleet page Menu Click Home  menu item | Load index page | Pass |
+| Fleet page Menu Click About menu item  | Load index page and set focus on About Section | Pass |
+| Fleet page Menu Click Instant Quote menu item  | Load index page and set focus on quote form | Pass |
+| Fleet page Menu Click Fleet Profile  menu item| Load index page and set focus on Fleet Section  | Pass |
+| Fleet page Menu Click Contact menu item| Set focus on Footer Section  | Pass |
 
-
-
-
-
-## Implementation
 
 ## Results and outcomes
 
