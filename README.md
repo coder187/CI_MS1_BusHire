@@ -205,7 +205,7 @@ The About section flows naturally below followed by Fleet Profile with Contact i
 5. Click **Save**.
 
 ## Deploy Locally via GIT
-1. On GitHub, navigate to the main page of the repository.
+1. On GitHub, navigate to the main page of the repository [github.com/coder187/CI_MS1_BusHire](https://github.com/coder187/CI_MS1_BusHire)
 2. Above the list of files, click Code.
 ![](https://docs.github.com/assets/images/help/repository/code-button.png)
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link text or click the icon to right. 
@@ -255,7 +255,7 @@ My mentor, Dick Vlaanderen was of great assistance and provided excellent leader
 
 Code Institure Tutor Support and Customer Care were invaluable.
 
-Big thank you to my ever patient loved ones and family for allowing me follow this journey!
+Big thank you to my ever patient family for allowing me follow this journey!
 
 **Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
 
