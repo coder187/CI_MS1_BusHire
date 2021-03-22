@@ -9,6 +9,8 @@ The project will produce a simple brochure website for the Limerick based bus hi
 
 The idea behind the project is to help support and enhance the companies current web and social media presence via a user friendly & mobile responsive site with some 
 basic information on the company and services available.
+It is envisaged hat the base system will be extended in future to provide cloud based customer services which will fully integrate with the exist9ng 
+IT infrasctructire of the companies backoffice systems via a Full Stack solution.
 
 
 The end user of the system will be current and potential customers of Kelly Travel.
@@ -16,6 +18,8 @@ This includes a very wide range of people, so ease of use and responsive design 
 It is envisaged that the site will encourage interest in the companies services 
 from a younger audience as the current site is not fully responsive and so engagement is somewhat diminised.
 A modern UX will hopefully bring the companies services to an even wider audience.
+
+# Strategy
 
 ## Business Goals
 * Build brand awareness.
@@ -33,7 +37,7 @@ A modern UX will hopefully bring the companies services to an even wider audienc
 * Easily request a quote.
 * View available vehicle options.
 
-# UX
+# Scope 
 ## User Stories
 1. As a potential customer I want to get contact information for local bus companies.
 2. As a potential customer I want information on the type of vehicles available for hire.
@@ -43,16 +47,8 @@ A modern UX will hopefully bring the companies services to an even wider audienc
 6. As a potential customer I want to easily and intuitively navigate the site so that I so I can find what I need efficiently.
 7. As a potential customer I want to follow the companies social media accounts so that I can see their latest news and posts.
 
-## Wireframes
+# Structure 
 
-* [Landing page Mobile](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/home%20mobile.png)
-* [Landing page Tablet](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/home%20tablet.png)
-* [Landing page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/Home%20desktop.png)
-
-* [Fleet page Mobile](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20mobile.png)
-* [Fleet page Tablet](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20tablet.png)
-* [Fleet page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20desktop.png)
- 
 ## Features
 The website consists of 3 pages, home page, fleet page and a quote sent conifrmation page.
 Each page features a responsive navigation bar with conventional placing of logo (top left).
@@ -86,7 +82,10 @@ The Fleet page is laid out in columns of images and bullet point text with a sin
 and three columns for larger screens. The images are high resolution examples from each vehilce category and 
 the text describes the features of each category.
 
-### Existing Features
+## Technical Capabilites
+HTML5 & CSS3 along with Bootstrap 4 framework are the my core strengths in regards to this project.
+
+## Existing Features
 
 * Header [Logo](https://coder187.github.io/CI_MS1_BusHire/assets/img/kt_logo.png) - Exists on every page and allows all users to easily recognise the business brand. Clicking the logo returns users to the home page as they would expect.
 * Header Navigation Bar - Exists on every page and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
@@ -99,15 +98,61 @@ the text describes the features of each category.
 * [Fleet Details Page](https://coder187.github.io/CI_MS1_BusHire/fleet.html) -  Show bullet points of each vehcile category alongside high resolution images of
 vehicles from each category.
 
-### Features Left To Implement In Future
+## Features Left To Implement In Future
 * Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed.
 * Add Search function - Allow users quicly search by keyword within the site.
 * The website should retrieve the users location for use on the contact form. - Geo Servics API/Javascript Needed.
 * As a potential customer I would like to read (& post) social reviews placed by exisitng customers. Facebook / Tripadviser Links - Javascript Needed.)
 * In future, I would like to extend this project to a Full Stack implementation with backend clould based services. (Not necessarily as part of Code Institute Course.)
 
+# Skeleton
+## Wireframes
 
-## Technologies Used
+* [Landing page Mobile](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/home%20mobile.png)
+* [Landing page Tablet](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/home%20tablet.png)
+* [Landing page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/Home%20desktop.png)
+
+* [Fleet page Mobile](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20mobile.png)
+* [Fleet page Tablet](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20tablet.png)
+* [Fleet page Desktop](https://github.com/coder187/CI_MS1_BusHire/blob/master/supp/wireframes/fleet%20page%20desktop.png)
+
+Home page:
+The homepage will be a landing page for the user and give them the warm welcome with a contact form overlayed the hero image.
+
+Reasosn To Travel With Us:
+This section covers a brief overview of who Kelly Travel are, how long they have been in business and why you can trust them.
+
+Our Fleet:
+Showcasing the broad range of vehicles available for hire.
+
+Contact:
+The business address, emergency & office contact details as well as social media links are contained in the footer.
+
+Request Quote Form:
+Form is overlayed the hero image and invites a quick quote request.
+
+Fleet Details:
+Further information on the fleet vehicles are detailed here alongside some choice high quality images.
+
+# Surface
+## Font 
+I have used Google Fonts Roboto & Work Sans, throughout this project as I felt they clearly and efficently communicate their content. 
+
+## Colour Scheme
+I wanted the site to immediately feel familiar to exisitng Kelly Travel employees and customers by maintaining the companies long 
+held colours of Green, Black & White. Although this maybe a somewhat simple color palette, it does match with company logo, uniform and vehicle livery.
+This helps to immediately identify the site as being within the Kelly Travel domain.
+
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/assets/img/palette/palette.png)
+
+## Site Layout
+One of the sites main goals is to drive sales, especially from a younger audience whom are more likely to engage with the site via a mobile device.
+To encourage call to action I have placed the Quote Form as one of the first elements on the landing page, aswell as including a menu item for the form.
+This will help remove any impediments to engaging with the company and make quote request as seamless as possible.
+
+The About section flows naturally below followed by Fleet Profile with Contact information pinned to the footer.
+
+# Technologies Used
 * [HTML5](https://www.w3.org/)
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
 * [Bootstrap v4.1.3](https://getbootstrap.com/) - to aid responsive design.
@@ -119,7 +164,8 @@ vehicles from each category.
 * [Google Fonts](https://fonts.google.com/) - I used font family Roboto and Work Sans provided by Google Fonts.
 * [Gitpod](https://gitpod.io/) - IDE 
 * [Github](https://www.github.com/) - version control and backup.
-* [Gimp 2](https://www.gimp.org/) - image manipulation.
+* [Coolors.co](https://coolors.co/) - palette matching and contrast.
+* [Gimp](https://www.gimp.org/) - image manipulation.
 * [Google Chrome Dev tools](https://developers.google.com/web/tools/chrome-devtools) for debugging.
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge) Dev Tools for testing and debugging.
 * Microsoft Internet Explorer for additional testing.
@@ -143,7 +189,7 @@ vehicles from each category.
 * [Am I Responsive](http://ami.responsivedesign.is/) - Screen Grab of site on various devices.
 
 
-## Testing
+# Testing
 
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -151,7 +197,7 @@ vehicles from each category.
 and W3C Markup Validation Service to check the validity of the website code.
 
 
-### Testing planning.
+## Testing planning.
 With this project I have use Test [Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) model (TDD).
 
 The TDD method consists of a cycle of write new test, implement new feature, run all tests & repeat all steps untill all tests pass.
@@ -220,8 +266,8 @@ The TDD method consists of a cycle of write new test, implement new feature, run
 
 ## Results and outcomes
 
-## Deployment
-### Github Pages
+# Deployment
+## Github Pages
 1. On GitHub, navigate to your site's repository.
 2. Under your repository name, click **Settings**.
 ![](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
@@ -231,7 +277,7 @@ The TDD method consists of a cycle of write new test, implement new feature, run
 ![](https://docs.github.com/assets/images/help/pages/publishing-source-folder-drop-down.png)
 5. Click **Save**.
 
-### Deploy Locally via GIT
+## Deploy Locally via GIT
 1. On GitHub, navigate to the main page of the repository.
 2. Above the list of files, click Code.
 ![](https://docs.github.com/assets/images/help/repository/code-button.png)
@@ -247,7 +293,7 @@ To clone a repository using GitHub CLI, click **Use GitHub CLI**, then copy the 
 ```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
 7. Press **Enter** to create your local clone.
 
-### Deploy Locally via zip file download
+## Deploy Locally via zip file download
 1. On GitHub, navigate to the main page of the repository.
 2. Above the list of files, click Code.
 ![](https://docs.github.com/assets/images/help/repository/code-button.png)
@@ -256,7 +302,7 @@ To clone a repository using GitHub CLI, click **Use GitHub CLI**, then copy the 
 
 
 
-## Bugs
+# Bugs
 about section : text not aligned bcause float had right instead of left
 font awssime fints not showing - some fonts were from ver 5. Ver4 and Ver5 have different element link syntax for the same icons
 
@@ -271,15 +317,15 @@ notice a left - right horizontal scroll - also on demo sites - so possibly not a
 
 set posiotin abs seems to fix.
 
-## Credits
-### Content 
+# Credits
+## Content 
 The content of the site describes a real life company in Limerick, Kelly Travel (family business) and is used here with consent.
 
-### Media 
+## Media 
 The hero & vehicle category images are taken from [Pure PNG](https://purepng.com/)
 The vehicle internal images on Fleet page are of Kelly Travel vehicles.
 
-### Acknowledgements
+## Acknowledgements
 I relied heavily upon the sample course mini projects, particularly Love Running, Portfolio Project & Whiskey Drop as inspiration for the site layout and features.
 
 My mentor, Dick Vlaanderen was of great assistance and provided excellent leadership where needed.
@@ -287,50 +333,3 @@ My mentor, Dick Vlaanderen was of great assistance and provided excellent leader
 **Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
 
 **Created by Jonathan Kelly**
-
-
-## Strategy
-### User Needs.
-The needs of the user is to fulfil the capabilites of using this application on their mobile and tablet devices. 
-They need the information to be easily accessible and easy to digest.
-
-### Technical Capabilites
-It is envisenged that Bootstrap 4 together with HTML5, CSS3 and Javascript will be utilised to create the website in a timely manner. 
-Keeping the information seperated but easy to read and designed to pop out for the user so they dont have to look 
-too hard for the information. It was not possible to implement mailing servers on this project due to time restrictions and 
-was not part of the current scope of the project, but is due to be completed on a future release.
-
-### Business Vision
-The purpose of this project is to provide basic information to the general puplic on the services offered by Kelly Travel and 
-to provide a seamless user friendly mechanism to make an enqiry via the contact form.
-
-It is envisaged hat the base system will be extended in future updates to provide cloud based customer services which will fully integrate with the exist9ng 
-IT infrasctructire of the companes backoffice systems.
-
-## Scope
-If they like what they see it promotes further followers on the social media platform and or to get intouch for further information.
-
-## Structure
-My structure is layed out as a single page application that has an inviting landing page with quick quote form 
-to allow quick and easy enquiries with as little input from the user as possible. 
-On the natural flow of the site it brings you to the About Kelly Travel section that gives a quick snippet of the business, 
-followed by a quick snippet of the reasons customers choose to travel with us on a regular basis.
-Following this you are shown some examples of the avaialble vehicle options with a call to action button "more info.."
-The footer that has links to social media platforms.
-
-## Skeleton
-
-
-
-Home page:
-The homepage will be a landing page for the user and give them the warm welcome feeling with a contact form overlayed.
-
-About:
-This section covers a brief overview of who Kelly Travel are, how long they have been in business and why ypu can trust them.
-
-Reasosn To Travel With Us:
-Highlighting the services the charity currently offers.
-
-Our Fleet:
-Various vehicle options.
-
