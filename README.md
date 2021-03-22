@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/supp/air/brochure.png)
 
 # Kelly Travel - Bus Hire Website
-[Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/)
+[Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/){:target="_blank"}
 
 Project - User-Centric Frontend Development - Code Institute
 
@@ -190,7 +190,8 @@ The About section flows naturally below followed by Fleet Profile with Contact i
 
 
 # Testing
-[Link to README file](https://github.com/coder187/CI_MS1_BusHire/blob/master/TESTING.md)
+[Link to Testing file](https://github.com/coder187/CI_MS1_BusHire/blob/master/TESTING.md){:target="_blank"}
+
 # Deployment
 ## Github Pages
 1. On GitHub, navigate to your site's repository.

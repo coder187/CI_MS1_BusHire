@@ -8,7 +8,6 @@ Project - User-Centric Frontend Development - Code Institute
 
 # Testing
 
-
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     * The site has been validated by W3C CSS Validation Service 
