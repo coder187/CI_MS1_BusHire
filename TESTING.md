@@ -1,18 +1,23 @@
 # Kelly Travel - Bus Hire Website
 [Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/)
 
-[Link to README file](https://github.com/coder187/CI_MS1_BusHire/blob/master/README.md)
+[Link to main README.md file](https://github.com/coder187/CI_MS1_BusHire/blob/master/README.md)
 
 
 Project - User-Centric Frontend Development - Code Institute
 
 # Testing
 
+## W3C Validators
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     * The site has been validated by W3C CSS Validation Service 
 and W3C Markup Validation Service to check the validity of the website code.
+![]()
 
+## Check ALT Tags
+I used [SEOPTIMER](https://www.seoptimer.com) to verify all image alt tags were present.
+![]()
 
 ## Testing planning.
 With this project I have use Test [Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) model (TDD).
@@ -28,10 +33,11 @@ The TDD method consists of a cycle of :
 | ----------- | ---------------- | -------|
 | Add new blank html page to project | blank page ready for code saved as index.htm | Pass |
 | Add Nav Bar to top of index | Nav Bar should stay at top of page at all screen sizes | Pass |
+| Add Nav Bar Items to Nav Bar | Nav Bar items should collapse to Burger Menu style at small screen sizes | Pass |
 | Add Footer Section | Three equal width columns occupying the full width of the page. | Pass |
 | Add Address paragraph to left column | Center content within column | Pass |
 | Add Contact paragraph to center column | Center content within column | Pass |
-| Add Social Media Icons to right column | Center content within column | Pass |
+| Add Fontawesome Social Media Icons to right column | Center content within column | Pass |
 | Add hyper links to Social Media Icons | Click link opens target in new browser window | Pass |
 | Add hover effect to Social Media Icons | On mouse hover the background fades to green. On mouse out the background fades back to original colour | Pass |
 | Add Header Section which conssits of two columns below Nav Bar | Mobile View: Right column should float directly below left column and align vertically | Pass |
@@ -89,4 +95,47 @@ The TDD method consists of a cycle of :
 | Fleet page Menu Click Contact menu item| Set focus on Footer Section  | Pass |
 
 
-## Results and outcomes
+## Responsive Design
+I tested the site layout using the built in  Chrome Dev Tools with following device emulation:
+| Device | Resolution | Throttling | Orientation |
+|---------|------------|------------|-------------|
+| Moto G4 | 360x640 | None | Portrait|
+| Pixel 2 | 411x731 | None | Portrait|
+| Pixel 2 | 731x411 | None | Landscape|
+| iPhone 5 | 320x568 | None | Portrait|
+| iPad | 768x1024 | None | Portrait|
+| iPad | 1024x768 | None | Portrait|
+| iPad Pro | 1024x1366 | None | Portrait|
+| iPad Pro | 1024x1366 | Mid Tier | Portrait|
+| iPad Pro | 1024x1366 | Low End | Portrait|
+| Galaxy Fold| 280x653 | None | Portrait|
+| Galaxy Fold| 653x280 | None | Landscape|
+| Galaxy Fold| 512x717 | None | Portrait|
+| Galaxy Fold| 717x512 | None | Landscape|
+
+
+I tested the site layout using physical devices as follows:
+| Device | Browser |Resolution | Throttling | Orientation |
+|---------|------------|------------|-------------|--------|
+| Samsung S5 NEO on Android 6.0.1 | Android Chrome | 360x640| Cellular / Broadband | Portrait|
+| Samsung S5 NEO on Android 6.0.1 | Android Chrome | x | Cellular / Broadband | Landscape|
+| Samsung A50 on Android 10 | Android Chrome | 412x892 | Cellular / Broadband | Portrait|
+| Samsung A50 on Android 10 | Android Chrome | 892x412 | Cellular / Broadband | Landscape|
+| Fire HD 10 on Fire OS 5.6.8.0 | Silk Browser | 1280x600 | Cellular / Broadband | Landscape|
+| Fire HD 10 on Fire OS 5.6.8.0 | Silk Browser | 600x1280 | Cellular / Broadband | Portrait |
+| HP Laptop on Win 10 Pro 10.0.19041 | Chrome 89.0.4389.90| 1366x768 | Broadband ||
+| HP Laptop on Win 10 Pro 10.0.19041 | Chrome 89.0.4389.90| 800x600 | Broadband ||
+| HP Laptop on Win 10 Pro 10.0.19041 | Edge 89.0.774.57 | 1366x768 | Broadband ||
+| HP Laptop on Win 10 Pro 10.0.19041 | Internet Explorer 2004| 1366x768 | Broadband ||
+
+
+
+
+
+
+
+
+
+**Please note : this project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Jonathan Kelly**

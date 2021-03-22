@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/supp/air/brochure.png)
 
 # Kelly Travel - Bus Hire Website
-[Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/){:target="_blank"}
+[Link to live site on github pages](https://coder187.github.io/CI_MS1_BusHire/)
 
 Project - User-Centric Frontend Development - Code Institute
 
@@ -169,6 +169,7 @@ The About section flows naturally below followed by Fleet Profile with Contact i
 * [Google Chrome Dev tools](https://developers.google.com/web/tools/chrome-devtools) for debugging.
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge) Dev Tools for testing and debugging.
 * Microsoft Internet Explorer for additional testing.
+* [SEOPTIMER](https://www.seoptimer.com) - verify alt tags.
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) for debugging.
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance audit.
 * [W3C Markup Validation Service](https://validator.w3.org/)
@@ -190,7 +191,7 @@ The About section flows naturally below followed by Fleet Profile with Contact i
 
 
 # Testing
-[Link to Testing file](https://github.com/coder187/CI_MS1_BusHire/blob/master/TESTING.md){:target="_blank"}
+[Link to Testing.md file](https://github.com/coder187/CI_MS1_BusHire/blob/master/TESTING.md)
 
 # Deployment
 ## Github Pages
