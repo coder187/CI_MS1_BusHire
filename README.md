@@ -47,7 +47,7 @@ A modern UX will hopefully bring the company’s services to an even wider audie
 6. As a potential customer I want to easily and intuitively navigate the site so that I so I can find what I need efficiently.
 7. As a potential customer I want to follow the company’s social media accounts so that I can see their latest news and posts.
 
-![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/img/misc/userStories.png)
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/assets/img/misc/userStories.png)
 
 # Structure 
 
