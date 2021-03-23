@@ -413,6 +413,8 @@ footer ul{
    width: 100%; /* for IE 6 */
 }
 
+
+/* code from https://css-tricks.com/text-blocks-over-image */
 .vehicle-desc h2 { 
    position: absolute; 
    top: 45%; 
