@@ -42,10 +42,12 @@ A modern UX will hopefully bring the company’s services to an even wider audie
 1. As a potential customer I want to get contact information for local bus companies.
 2. As a potential customer I want information on the type of vehicles available for hire.
 3. As a potential customer I would like to see the types of journeys catered for.
-4. As a potential customer I would like to know if the company can provide disability friendly vehicles.
+4. As a potential customer I would like to know if the company can provide disability friendly vehicles.    
 5. As a potential customer I want to send a request for a quote for hire via the contact page.
 6. As a potential customer I want to easily and intuitively navigate the site so that I so I can find what I need efficiently.
 7. As a potential customer I want to follow the company’s social media accounts so that I can see their latest news and posts.
+
+![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/img/misc/userStories.png)
 
 # Structure 
 
