@@ -21,6 +21,9 @@ and W3C Markup Validation Service to check the validity of the website code.
 I used [SEOPTIMER](https://www.seoptimer.com) to verify all image alt tags were present.
 ![](https://raw.githubusercontent.com/coder187/CI_MS1_BusHire/master/assets/img/misc/seoptimer.png)
 
+## Spelling
+I used [https://typosaur.us/](https://typosaur.us/) & MS Word to check pages for spelling errors.
+
 ## Testing planning.
 With this project I have use Test [Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) model (TDD).
 
