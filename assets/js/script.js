@@ -1,3 +1,4 @@
+// I have taken this code from 
 // https://css-tricks.com/animating-number-counters/
 
 function animateValue(obj, start, end, duration) {
